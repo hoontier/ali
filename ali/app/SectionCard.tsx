@@ -1,9 +1,17 @@
 //SectionCard.tsx
-import React, { useState } from 'react';
-import { Text, View, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import React from 'react';
+import { Text, View, Image, StyleSheet, TouchableOpacity, GestureResponderEvent } from 'react-native';
 import { Link } from 'expo-router';
+import { useDispatch, useSelector } from 'react-redux';
+import {
+  setSelectedSection,
+  setSelectedLesson,
+  setSelectedDialogue,
+  setExpandedSection,
+  setExpandedLesson,
+} from './features/VocabularySlice';
+import { RootState } from './features/store';
 
-// Define the type for the vocabulary data
 type Dialogue = {
   simplified: string;
   traditional: string;
@@ -31,24 +39,45 @@ type SectionCardProps = {
 };
 
 const SectionCard: React.FC<SectionCardProps> = ({ name, lessons, vocab, image }) => {
-  const [expandedCard, setExpandedCard] = useState<string | null>(null);
-  const [expandedLesson, setExpandedLesson] = useState<string | null>(null);
+  const dispatch = useDispatch();
+  const expandedSection = useSelector((state: RootState) => state.vocabulary.expandedSection);
+  const expandedLesson = useSelector((state: RootState) => state.vocabulary.expandedLesson);
 
-  const toggleCard = (name: string) => {
-    setExpandedCard(expandedCard === name ? null : name);
-    setExpandedLesson(null); // Collapse any expanded lesson when a different card is expanded
+  const toggleCard = (sectionName: string) => {
+    if (expandedSection === sectionName) {
+      dispatch(setExpandedSection(null));
+      dispatch(setExpandedLesson(null));
+      dispatch(setSelectedSection(null));
+    } else {
+      dispatch(setExpandedSection(sectionName));
+      dispatch(setExpandedLesson(null));
+      dispatch(setSelectedSection(sectionName));
+    }
   };
 
-  const toggleLesson = (name: string) => {
-    setExpandedLesson(expandedLesson === name ? null : name);
+  const toggleLesson = (lessonName: string) => {
+    if (expandedLesson === lessonName) {
+      dispatch(setExpandedLesson(null));
+      dispatch(setSelectedLesson(null));
+    } else {
+      dispatch(setExpandedLesson(lessonName));
+      dispatch(setSelectedLesson(lessonName));
+    }
   };
 
-  const isExpanded = expandedCard === name;
+  const handleDialoguePress = (event: GestureResponderEvent, dialogue: string) => {
+    event.stopPropagation();
+    dispatch(setSelectedDialogue(dialogue));
+  };
+
+  const isExpanded = expandedSection === name;
+  const isLessonExpanded = (lessonName: string) => expandedLesson === lessonName;
+
   const totalDialogues = lessons.reduce(
     (acc, lesson) => acc + (vocab[name][lesson] ? Object.keys(vocab[name][lesson]).length : 0),
     0
   );
-  const expandedHeight = 150 + 80 * lessons.length + 60 * totalDialogues; // Adjust height to fit lesson and dialogue cards
+  const expandedHeight = 150 + 80 * lessons.length + 60 * totalDialogues;
 
   return (
     <TouchableOpacity onPress={() => toggleCard(name)}>
@@ -64,22 +93,26 @@ const SectionCard: React.FC<SectionCardProps> = ({ name, lessons, vocab, image }
         {isExpanded && (
           <View style={styles.lessonsContainer}>
             {lessons.map((lesson, lessonIndex) => {
-              const isLessonExpanded = expandedLesson === lesson;
               const dialogues = vocab[name][lesson] ? Object.keys(vocab[name][lesson]) : [];
               return (
                 <TouchableOpacity key={lessonIndex} onPress={() => toggleLesson(lesson)}>
-                  <View style={[styles.lessonCard, isLessonExpanded && { height: 60 + 60 * dialogues.length }]}>
+                  <View style={[styles.lessonCard, isLessonExpanded(lesson) && { height: 60 + 60 * dialogues.length }]}>
                     <View style={styles.lessonHeader}>
                       <Text style={styles.lessonText}>{lesson}</Text>
                     </View>
-                    {isLessonExpanded && (
+                    {isLessonExpanded(lesson) && (
                       <View style={styles.dialoguesContainer}>
                         {dialogues.map((dialogue, dialogueIndex) => (
-                        <Link key={dialogueIndex} href="/ContentSelect" >
-                          <View style={styles.dialogueCard}>
-                            <Text style={styles.dialogueText}>{dialogue}</Text>
-                          </View>
-                        </Link>
+                          <TouchableOpacity
+                            key={dialogueIndex}
+                            onPress={(e) => handleDialoguePress(e, dialogue)}
+                          >
+                            <Link href="/ContentSelect" asChild>
+                              <View style={styles.dialogueCard}>
+                                <Text style={styles.dialogueText}>{dialogue}</Text>
+                              </View>
+                            </Link>
+                          </TouchableOpacity>
                         ))}
                       </View>
                     )}
@@ -93,7 +126,6 @@ const SectionCard: React.FC<SectionCardProps> = ({ name, lessons, vocab, image }
     </TouchableOpacity>
   );
 };
-
 const styles = StyleSheet.create({
   card: {
     width: '90%',
@@ -152,6 +184,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
     width: '100%',
     alignItems: 'center', // Center the dialogue cards
+    zIndex: 1,
   },
   dialogueCard: {
     width: '85%', // Slightly narrower than the lesson card
@@ -161,6 +194,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ACBAE0',
     backgroundColor: '#FFF',
+    zIndex: 1,
   },
   dialogueText: {
     fontSize: 14,

@@ -1,8 +1,34 @@
+//List.tsx
 import React from 'react';
-import { View, Text, StyleSheet, Pressable } from 'react-native';
+import { View, Text, StyleSheet, Pressable, FlatList } from 'react-native';
 import { Link } from 'expo-router';
+import { useSelector, Provider } from 'react-redux';
+import { RootState } from './features/store';
+import vocabulary from '../vocabulary.json';
+import store from './features/store';
 
 const List: React.FC = () => {
+  const selectedSection = useSelector((state: RootState) => state.vocabulary.selectedSection);
+  const selectedLesson = useSelector((state: RootState) => state.vocabulary.selectedLesson);
+  const selectedDialogue = useSelector((state: RootState) => state.vocabulary.selectedDialogue);
+
+  const vocabData = vocabulary as any;
+
+  const getVocabularyWords = () => {
+    if (selectedSection && selectedLesson && selectedDialogue) {
+      return vocabData[selectedSection]?.[selectedLesson]?.[selectedDialogue] || [];
+    }
+    return [];
+  };
+
+  const vocabularyWords = getVocabularyWords();
+
+  const renderItem = ({ item }: { item: any }) => (
+    <View style={styles.vocabItem}>
+      <Text style={styles.vocabText}>{item.simplified} ({item.traditional}) - {item.pinyin}: {item.english}</Text>
+    </View>
+  );
+
   return (
     <View style={styles.container}>
       <Link href="/ContentSelect" asChild>
@@ -11,7 +37,15 @@ const List: React.FC = () => {
         </Pressable>
       </Link>
       <View style={styles.content}>
-        <Text style={styles.sampleText}>Sample Text</Text>
+        {vocabularyWords.length > 0 ? (
+          <FlatList
+            data={vocabularyWords}
+            renderItem={renderItem}
+            keyExtractor={(item, index) => index.toString()}
+          />
+        ) : (
+          <Text style={styles.noDataText}>No vocabulary available.</Text>
+        )}
       </View>
     </View>
   );
@@ -39,9 +73,23 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    paddingTop: 100,
   },
-  sampleText: {
+  noDataText: {
     fontSize: 18,
+    color: '#000',
+  },
+  vocabItem: {
+    padding: 10,
+    marginVertical: 5,
+    borderRadius: 5,
+    backgroundColor: '#FFF',
+    borderColor: '#ACBAE0',
+    borderWidth: 1,
+    width: '90%',
+  },
+  vocabText: {
+    fontSize: 16,
     color: '#000',
   },
 });
