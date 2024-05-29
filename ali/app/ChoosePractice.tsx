@@ -21,9 +21,11 @@ const ChoosePractice: React.FC = () => {
             <Text style={styles.buttonText}>Flashcards</Text>
           </Pressable>
         </Link>
-        <Pressable style={styles.button} onPress={handleWritingPress}>
-          <Text style={styles.buttonText}>Writing</Text>
-        </Pressable>
+        <Link href="/WriteGame" asChild>
+          <Pressable style={styles.button} onPress={handleWritingPress}>
+            <Text style={styles.buttonText}>Writing</Text>
+          </Pressable>
+        </Link>
       </View>
     </View>
   );

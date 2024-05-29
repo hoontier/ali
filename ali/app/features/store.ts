@@ -2,11 +2,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import selectReducer from './selectSlice';
 import flashcardReducer from './flashcardSlice';
+import writeGameReducer from './writeGameSlice';
 
 const store = configureStore({
   reducer: {
     select: selectReducer,
     flashcard: flashcardReducer,
+    write: writeGameReducer,
   },
 });
 
