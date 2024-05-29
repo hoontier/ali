@@ -15,6 +15,17 @@ import {
 import { shuffleArray } from './utils/shuffleArray';
 import { Link } from 'expo-router';
 import CompletedFlashcards from './CompletedFlashcards';
+import FlashcardSettings from './FlashcardSettings';
+
+type DataItem = {
+  simplified: string;
+  traditional?: string;
+  pinyin: string;
+  english: string;
+  structure?: string;
+};
+
+type CardKey = keyof DataItem;
 
 const FlashcardGame: React.FC = () => {
   const dispatch = useDispatch();
@@ -23,7 +34,7 @@ const FlashcardGame: React.FC = () => {
   );
 
   const fetchDeck = async () => {
-    const data = [
+    const data: DataItem[] = [
       { simplified: '走', pinyin: 'zǒu', english: 'to walk' },
       { simplified: '路人', pinyin: 'lùrén', english: 'pedestrian' },
     ];
@@ -48,13 +59,10 @@ const FlashcardGame: React.FC = () => {
 
   const handleComplete = () => {
     dispatch(removeCardFromDeck(currentCardIndex));
-    // Wait for the state to update before handling the next card
     setTimeout(() => {
       if (deck.length > 1) {
-        const newIndex = currentCardIndex === deck.length - 1 ? 0 : currentCardIndex;
-        dispatch(setCurrentCardIndex(newIndex));
+        handleNextCard();
       }
-      dispatch(resetCardSide());
     }, 0);
   };
 
@@ -63,11 +71,19 @@ const FlashcardGame: React.FC = () => {
   };
 
   const handleReset = () => {
-    dispatch(resetFlashcards(deck));
+    dispatch(resetFlashcards());
     fetchDeck();
   };
 
   const currentCard = deck[currentCardIndex];
+
+  const renderCardContent = (keys: CardKey[]) => {
+    return keys.map((key) => (
+      <Text key={key} style={styles.cardText}>
+        {currentCard[key as keyof DataItem]}
+      </Text>
+    ));
+  };
 
   return (
     <View style={styles.container}>
@@ -79,9 +95,7 @@ const FlashcardGame: React.FC = () => {
       <View style={styles.cardContainer}>
         {currentCard ? (
           <Pressable style={styles.card} onPress={() => dispatch(toggleCardSide())}>
-            <Text style={styles.cardText}>
-              {isFront ? currentCard[settings.front] : currentCard[settings.back]}
-            </Text>
+            {isFront ? renderCardContent(settings.front) : renderCardContent(settings.back)}
           </Pressable>
         ) : (
           <CompletedFlashcards onReset={handleReset} />
@@ -94,14 +108,11 @@ const FlashcardGame: React.FC = () => {
           <Button title="Settings" onPress={handleSettingsToggle} />
         </View>
       )}
-      {showSettings && (
-        <View style={styles.settings}>
-          <Text>Settings Modal (to be implemented)</Text>
-        </View>
-      )}
+      {showSettings && <FlashcardSettings />}
     </View>
   );
 };
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,

@@ -1,20 +1,21 @@
 //flashcardSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
+type CardKey = 'simplified' | 'traditional' | 'pinyin' | 'english' | 'structure' ;
+
 type DataItem = {
   simplified: string;
   traditional?: string;
   pinyin: string;
   english: string;
   structure?: string;
-  negation?: boolean;
 };
 
 interface FlashcardState {
   deck: DataItem[];
   currentCardIndex: number;
   isFront: boolean;
-  settings: { front: keyof DataItem; back: keyof DataItem };
+  settings: { front: CardKey[]; back: CardKey[] };
   removedCards: DataItem[];
   showSettings: boolean;
 }
@@ -23,7 +24,7 @@ const initialState: FlashcardState = {
   deck: [],
   currentCardIndex: 0,
   isFront: true,
-  settings: { front: 'simplified', back: 'english' },
+  settings: { front: ['simplified'], back: ['english'] },
   removedCards: [],
   showSettings: false,
 };
@@ -44,18 +45,17 @@ const flashcardSlice = createSlice({
     resetCardSide: (state) => {
       state.isFront = true;
     },
-    updateSettings: (state, action: PayloadAction<{ front: keyof DataItem; back: keyof DataItem }>) => {
+    updateSettings: (state, action: PayloadAction<{ front: CardKey[]; back: CardKey[] }>) => {
       state.settings = action.payload;
     },
     removeCardFromDeck: (state, action: PayloadAction<number>) => {
-      state.removedCards.push(state.deck[action.payload]);
-      state.deck.splice(action.payload, 1);
+      const removedCard = state.deck.splice(action.payload, 1)[0];
+      state.removedCards.push(removedCard);
     },
     setShowSettings: (state, action: PayloadAction<boolean>) => {
       state.showSettings = action.payload;
     },
-    resetFlashcards: (state, action: PayloadAction<DataItem[]>) => {
-      state.deck = action.payload;
+    resetFlashcards: (state) => {
       state.currentCardIndex = 0;
       state.isFront = true;
       state.removedCards = [];
