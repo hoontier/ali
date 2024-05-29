@@ -8,15 +8,17 @@ import vocabulary from '../vocabulary.json';
 import grammar from '../grammar.json';
 import dialogue from '../dialogue.json';
 
-type Dialogue = {
+type DataItem = {
   simplified: string;
-  traditional: string;
+  traditional?: string;
   pinyin: string;
   english: string;
+  structure?: string;
+  negation?: boolean;
 };
 
 type Lesson = {
-  [key: string]: Dialogue[];
+  [key: string]: DataItem[];
 };
 
 type Section = {
@@ -53,9 +55,10 @@ const List: React.FC = () => {
 
   const words = getWords();
 
-  const renderItem = ({ item }: { item: Dialogue }) => (
+  const renderItem = ({ item }: { item: DataItem }) => (
     <View style={styles.vocabItem}>
-      <Text style={styles.vocabText}>{item.simplified} ({item.traditional}) - {item.pinyin}: {item.english}</Text>
+      <Text style={styles.vocabText}>{item.simplified} ({item.pinyin}): {item.english}</Text>
+      {item.structure && <Text style={styles.structureText}>Structure: {item.structure}</Text>}
     </View>
   );
 
@@ -121,6 +124,10 @@ const styles = StyleSheet.create({
   vocabText: {
     fontSize: 16,
     color: '#000',
+  },
+  structureText: {
+    fontSize: 14,
+    color: '#555',
   },
 });
 
