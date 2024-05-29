@@ -2,25 +2,16 @@ import React from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Link } from 'expo-router';
 
-const ContentSelect: React.FC = () => {
-  const handleVocabularyPress = () => {
-    // Placeholder for navigation to the vocabulary screen
-    console.log('Vocabulary button pressed');
-  };
-
+const List: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Link href="/" asChild>
+      <Link href="/ContentSelect" asChild>
         <Pressable style={styles.backButton}>
           <Text style={styles.backButtonText}>Back</Text>
         </Pressable>
       </Link>
       <View style={styles.content}>
-        <Link href="/List" asChild>
-          <Pressable style={styles.vocabularyButton} onPress={handleVocabularyPress}>
-            <Text style={styles.vocabularyButtonText}>Vocabulary</Text>
-          </Pressable>
-        </Link>
+        <Text style={styles.sampleText}>Sample Text</Text>
       </View>
     </View>
   );
@@ -49,16 +40,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  vocabularyButton: {
-    paddingVertical: 15,
-    paddingHorizontal: 30,
-    backgroundColor: '#ACBAE0',
-    borderRadius: 5,
-  },
-  vocabularyButtonText: {
-    color: '#FFF',
+  sampleText: {
     fontSize: 18,
+    color: '#000',
   },
 });
 
-export default ContentSelect;
+export default List;

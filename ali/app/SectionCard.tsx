@@ -1,5 +1,7 @@
+//SectionCard.tsx
 import React, { useState } from 'react';
 import { Text, View, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import { Link } from 'expo-router';
 
 // Define the type for the vocabulary data
 type Dialogue = {
@@ -73,9 +75,11 @@ const SectionCard: React.FC<SectionCardProps> = ({ name, lessons, vocab, image }
                     {isLessonExpanded && (
                       <View style={styles.dialoguesContainer}>
                         {dialogues.map((dialogue, dialogueIndex) => (
-                          <View key={dialogueIndex} style={styles.dialogueCard}>
+                        <Link key={dialogueIndex} href="/ContentSelect" >
+                          <View style={styles.dialogueCard}>
                             <Text style={styles.dialogueText}>{dialogue}</Text>
                           </View>
+                        </Link>
                         ))}
                       </View>
                     )}
