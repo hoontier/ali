@@ -16,6 +16,9 @@ import { shuffleArray } from './utils/shuffleArray';
 import { Link } from 'expo-router';
 import CompletedFlashcards from './CompletedFlashcards';
 import FlashcardSettings from './FlashcardSettings';
+import vocabulary from '../vocabulary.json';
+import grammar from '../grammar.json';
+import dialogue from '../dialogue.json';
 
 type DataItem = {
   simplified: string;
@@ -25,25 +28,50 @@ type DataItem = {
   structure?: string;
 };
 
+type Lesson = {
+  [key: string]: DataItem[];
+};
+
+type Section = {
+  [key: string]: Lesson;
+};
+
+type Vocabulary = {
+  [key: string]: Section;
+};
+
+const vocabData: Vocabulary = vocabulary as Vocabulary;
+const grammarData: Vocabulary = grammar as Vocabulary;
+const dialogueData: Vocabulary = dialogue as Vocabulary;
+
 type CardKey = keyof DataItem;
 
 const FlashcardGame: React.FC = () => {
   const dispatch = useDispatch();
-  const { deck, currentCardIndex, isFront, settings, showSettings, removedCards } = useSelector(
+  const { deck, currentCardIndex, isFront, settings, showSettings } = useSelector(
     (state: RootState) => state.flashcard
   );
+  const selectedSection = useSelector((state: RootState) => state.select.selectedSection);
+  const selectedLesson = useSelector((state: RootState) => state.select.selectedLesson);
+  const selectedDialogue = useSelector((state: RootState) => state.select.selectedDialogue);
+  const viewType = useSelector((state: RootState) => state.select.viewType);
+
+  const dataSources: { [key: string]: Vocabulary } = {
+    Vocabulary: vocabData,
+    Grammar: grammarData,
+    Dialogue: dialogueData,
+  };
 
   const fetchDeck = async () => {
-    const data: DataItem[] = [
-      { simplified: '走', pinyin: 'zǒu', english: 'to walk' },
-      { simplified: '路人', pinyin: 'lùrén', english: 'pedestrian' },
-    ];
-    dispatch(setDeck(shuffleArray(data)));
+    if (selectedSection && selectedLesson && selectedDialogue && viewType) {
+      const data = dataSources[viewType][selectedSection]?.[selectedLesson]?.[selectedDialogue] || [];
+      dispatch(setDeck(shuffleArray(data)));
+    }
   };
 
   useEffect(() => {
     fetchDeck();
-  }, [dispatch]);
+  }, [selectedSection, selectedLesson, selectedDialogue, viewType, dispatch]);
 
   const handleNextCard = () => {
     if (deck.length > 0) {
