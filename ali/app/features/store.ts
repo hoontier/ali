@@ -1,10 +1,12 @@
 // app/features/store.ts
 import { configureStore } from '@reduxjs/toolkit';
 import selectReducer from './selectSlice';
+import flashcardReducer from './flashcardSlice';
 
 const store = configureStore({
   reducer: {
     select: selectReducer,
+    flashcard: flashcardReducer,
   },
 });
 

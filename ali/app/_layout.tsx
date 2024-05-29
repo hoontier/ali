@@ -13,6 +13,7 @@ export default function RootLayout() {
           <Stack.Screen name="SectionList" options={{ title: 'Section List' }} />
           <Stack.Screen name="ContentSelect" options={{ title: 'Content Selection' }} />
           <Stack.Screen name="List" options={{ title: 'List' }} />
+          <Stack.Screen name="FlashcardGame" options={{ title: 'Flashcard Game' }} />
         </Stack>
       </View>
     </Provider>

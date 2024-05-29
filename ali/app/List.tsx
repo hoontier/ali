@@ -7,6 +7,7 @@ import { RootState } from './features/store';
 import vocabulary from '../vocabulary.json';
 import grammar from '../grammar.json';
 import dialogue from '../dialogue.json';
+import ChoosePractice from './ChoosePractice'; // Import the ChoosePractice component
 
 type DataItem = {
   simplified: string;
@@ -80,6 +81,9 @@ const List: React.FC = () => {
           <Text style={styles.noDataText}>No data available.</Text>
         )}
       </View>
+      <View style={styles.choosePracticeContainer}>
+        <ChoosePractice />
+      </View>
     </View>
   );
 };
@@ -128,6 +132,14 @@ const styles = StyleSheet.create({
   structureText: {
     fontSize: 14,
     color: '#555',
+  },
+  choosePracticeContainer: {
+    position: 'absolute',
+    bottom: 20,
+    left: 0,
+    right: 0,
+    alignItems: 'center',
+    zIndex: 2,
   },
 });
 
