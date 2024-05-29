@@ -2,28 +2,58 @@
 import React from 'react';
 import { View, Text, StyleSheet, Pressable, FlatList } from 'react-native';
 import { Link } from 'expo-router';
-import { useSelector, Provider } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { RootState } from './features/store';
 import vocabulary from '../vocabulary.json';
-import store from './features/store';
+import grammar from '../grammar.json';
+import dialogue from '../dialogue.json';
+
+type Dialogue = {
+  simplified: string;
+  traditional: string;
+  pinyin: string;
+  english: string;
+};
+
+type Lesson = {
+  [key: string]: Dialogue[];
+};
+
+type Section = {
+  [key: string]: Lesson;
+};
+
+type Vocabulary = {
+  [key: string]: Section;
+};
+
+const vocabData: Vocabulary = vocabulary as Vocabulary;
+const grammarData: Vocabulary = grammar as Vocabulary;
+const dialogueData: Vocabulary = dialogue as Vocabulary;
 
 const List: React.FC = () => {
-  const selectedSection = useSelector((state: RootState) => state.vocabulary.selectedSection);
-  const selectedLesson = useSelector((state: RootState) => state.vocabulary.selectedLesson);
-  const selectedDialogue = useSelector((state: RootState) => state.vocabulary.selectedDialogue);
+  const selectedSection = useSelector((state: RootState) => state.select.selectedSection);
+  const selectedLesson = useSelector((state: RootState) => state.select.selectedLesson);
+  const selectedDialogue = useSelector((state: RootState) => state.select.selectedDialogue);
+  const viewType = useSelector((state: RootState) => state.select.viewType);
 
-  const vocabData = vocabulary as any;
+  const dataSources: { [key: string]: Vocabulary } = {
+    Vocabulary: vocabData,
+    Grammar: grammarData,
+    Dialogue: dialogueData,
+  };
 
-  const getVocabularyWords = () => {
-    if (selectedSection && selectedLesson && selectedDialogue) {
-      return vocabData[selectedSection]?.[selectedLesson]?.[selectedDialogue] || [];
+  const getWords = () => {
+    if (selectedSection && selectedLesson && selectedDialogue && viewType) {
+      const data = dataSources[viewType];
+      return data[selectedSection]?.[selectedLesson]?.[selectedDialogue] || [];
     }
     return [];
   };
 
-  const vocabularyWords = getVocabularyWords();
+  const words = getWords();
 
-  const renderItem = ({ item }: { item: any }) => (
+  const renderItem = ({ item }: { item: Dialogue }) => (
     <View style={styles.vocabItem}>
       <Text style={styles.vocabText}>{item.simplified} ({item.traditional}) - {item.pinyin}: {item.english}</Text>
     </View>
@@ -37,14 +67,14 @@ const List: React.FC = () => {
         </Pressable>
       </Link>
       <View style={styles.content}>
-        {vocabularyWords.length > 0 ? (
+        {words.length > 0 ? (
           <FlatList
-            data={vocabularyWords}
+            data={words}
             renderItem={renderItem}
             keyExtractor={(item, index) => index.toString()}
           />
         ) : (
-          <Text style={styles.noDataText}>No vocabulary available.</Text>
+          <Text style={styles.noDataText}>No data available.</Text>
         )}
       </View>
     </View>

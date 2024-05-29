@@ -1,24 +1,26 @@
-// app/features/VocabularySlice.ts
+// app/features/selectSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-interface VocabularyState {
+interface SelectState {
   selectedSection: string | null;
   selectedLesson: string | null;
   selectedDialogue: string | null;
   expandedSection: string | null;
   expandedLesson: string | null;
+  viewType: 'Vocabulary' | 'Grammar' | 'Dialogue' | null; // New state to track the view type
 }
 
-const initialState: VocabularyState = {
+const initialState: SelectState = {
   selectedSection: null,
   selectedLesson: null,
   selectedDialogue: null,
   expandedSection: null,
   expandedLesson: null,
+  viewType: null, // Initialize the new state
 };
 
-const vocabularySlice = createSlice({
-  name: 'vocabulary',
+const selectSlice = createSlice({
+  name: 'select',
   initialState,
   reducers: {
     setSelectedSection: (state, action: PayloadAction<string | null>) => {
@@ -36,6 +38,9 @@ const vocabularySlice = createSlice({
     setExpandedLesson: (state, action: PayloadAction<string | null>) => {
       state.expandedLesson = action.payload;
     },
+    setViewType: (state, action: PayloadAction<'Vocabulary' | 'Grammar' | 'Dialogue' | null>) => {
+      state.viewType = action.payload;
+    },
   },
 });
 
@@ -45,5 +50,6 @@ export const {
   setSelectedDialogue,
   setExpandedSection,
   setExpandedLesson,
-} = vocabularySlice.actions;
-export default vocabularySlice.reducer;
+  setViewType, // Export the new action
+} = selectSlice.actions;
+export default selectSlice.reducer;

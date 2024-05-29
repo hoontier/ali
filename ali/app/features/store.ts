@@ -1,10 +1,10 @@
 // app/features/store.ts
 import { configureStore } from '@reduxjs/toolkit';
-import vocabularyReducer from './VocabularySlice';
+import selectReducer from './selectSlice';
 
 const store = configureStore({
   reducer: {
-    vocabulary: vocabularyReducer,
+    select: selectReducer,
   },
 });
 

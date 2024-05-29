@@ -9,7 +9,7 @@ import {
   setSelectedDialogue,
   setExpandedSection,
   setExpandedLesson,
-} from './features/VocabularySlice';
+} from './features/selectSlice';
 import { RootState } from './features/store';
 
 type Dialogue = {
@@ -40,8 +40,8 @@ type SectionCardProps = {
 
 const SectionCard: React.FC<SectionCardProps> = ({ name, lessons, vocab, image }) => {
   const dispatch = useDispatch();
-  const expandedSection = useSelector((state: RootState) => state.vocabulary.expandedSection);
-  const expandedLesson = useSelector((state: RootState) => state.vocabulary.expandedLesson);
+  const expandedSection = useSelector((state: RootState) => state.select.expandedSection);
+  const expandedLesson = useSelector((state: RootState) => state.select.expandedLesson);
 
   const toggleCard = (sectionName: string) => {
     if (expandedSection === sectionName) {

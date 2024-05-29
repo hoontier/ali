@@ -12,7 +12,7 @@ export default function RootLayout() {
           <Stack.Screen name="index" options={{ headerShown: false }} />
           <Stack.Screen name="SectionList" options={{ title: 'Section List' }} />
           <Stack.Screen name="ContentSelect" options={{ title: 'Content Selection' }} />
-          <Stack.Screen name="List" options={{ title: 'Vocabulary List' }} />
+          <Stack.Screen name="List" options={{ title: 'List' }} />
         </Stack>
       </View>
     </Provider>
