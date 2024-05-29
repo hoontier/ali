@@ -10,10 +10,10 @@ export default function RootLayout() {
       <View style={styles.container}>
         <Stack>
           <Stack.Screen name="index" options={{ headerShown: false }} />
-          <Stack.Screen name="SectionList" options={{ title: 'Section List' }} />
-          <Stack.Screen name="ContentSelect" options={{ title: 'Content Selection' }} />
-          <Stack.Screen name="List" options={{ title: 'List' }} />
-          <Stack.Screen name="FlashcardGame" options={{ title: 'Flashcard Game' }} />
+          <Stack.Screen name="SectionList" options={{ title: 'Section List', headerShown: false}} />
+          <Stack.Screen name="ContentSelect" options={{ title: 'Content Selection', headerShown: false}} />
+          <Stack.Screen name="List" options={{ title: 'List', headerShown: false}} />
+          <Stack.Screen name="FlashcardGame" options={{ title: 'Flashcard Game', headerShown: false}} />
         </Stack>
       </View>
     </Provider>

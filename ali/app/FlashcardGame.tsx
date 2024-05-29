@@ -7,50 +7,55 @@ import {
   setDeck,
   setCurrentCardIndex,
   toggleCardSide,
-  addStudiedCard,
-  addCompletedCard,
+  removeCardFromDeck,
   setShowSettings,
   resetFlashcards,
+  resetCardSide,
 } from './features/flashcardSlice';
-import { shuffleArray } from './utils/shuffleArray'; // A utility function to shuffle the array
+import { shuffleArray } from './utils/shuffleArray';
 import { Link } from 'expo-router';
 import CompletedFlashcards from './CompletedFlashcards';
 
 const FlashcardGame: React.FC = () => {
   const dispatch = useDispatch();
-  const { deck, currentCardIndex, isFront, settings, showSettings, completedCards } = useSelector(
+  const { deck, currentCardIndex, isFront, settings, showSettings, removedCards } = useSelector(
     (state: RootState) => state.flashcard
   );
 
+  const fetchDeck = async () => {
+    const data = [
+      { simplified: '走', pinyin: 'zǒu', english: 'to walk' },
+      { simplified: '路人', pinyin: 'lùrén', english: 'pedestrian' },
+    ];
+    dispatch(setDeck(shuffleArray(data)));
+  };
+
   useEffect(() => {
-    // Fetch and shuffle the deck of flashcards
-    const fetchDeck = async () => {
-      // Simulate fetching data based on selected section, lesson, dialogue, and viewType
-      const data = [
-        { simplified: '走', pinyin: 'zǒu', english: 'to walk' },
-        { simplified: '路人', pinyin: 'lùrén', english: 'pedestrian' },
-      ]; // Replace with actual data fetching
-      dispatch(setDeck(shuffleArray(data)));
-    };
     fetchDeck();
   }, [dispatch]);
 
   const handleNextCard = () => {
-    if (currentCardIndex < deck.length - 1) {
-      dispatch(setCurrentCardIndex(currentCardIndex + 1));
-    } else {
-      console.log('No more cards in the deck');
+    if (deck.length > 0) {
+      const newIndex = currentCardIndex < deck.length - 1 ? currentCardIndex + 1 : 0;
+      dispatch(setCurrentCardIndex(newIndex));
+      dispatch(resetCardSide());
     }
   };
 
   const handleStudyAgain = () => {
-    dispatch(addStudiedCard(deck[currentCardIndex]));
     handleNextCard();
   };
 
   const handleComplete = () => {
-    dispatch(addCompletedCard(deck[currentCardIndex]));
-    handleNextCard();
+    dispatch(removeCardFromDeck(currentCardIndex));
+    // Wait for the state to update before handling the next card
+    setTimeout(() => {
+      if (deck.length > 1) {
+        const newIndex = currentCardIndex === deck.length - 1 ? 0 : currentCardIndex;
+        dispatch(setCurrentCardIndex(newIndex));
+      }
+      dispatch(resetCardSide());
+    }, 0);
   };
 
   const handleSettingsToggle = () => {
@@ -58,7 +63,8 @@ const FlashcardGame: React.FC = () => {
   };
 
   const handleReset = () => {
-    dispatch(resetFlashcards());
+    dispatch(resetFlashcards(deck));
+    fetchDeck();
   };
 
   const currentCard = deck[currentCardIndex];
@@ -71,31 +77,31 @@ const FlashcardGame: React.FC = () => {
         </Pressable>
       </Link>
       <View style={styles.cardContainer}>
-        {currentCard && (
+        {currentCard ? (
           <Pressable style={styles.card} onPress={() => dispatch(toggleCardSide())}>
             <Text style={styles.cardText}>
-              {isFront ? currentCard[settings.front] as string : currentCard[settings.back] as string}
+              {isFront ? currentCard[settings.front] : currentCard[settings.back]}
             </Text>
           </Pressable>
+        ) : (
+          <CompletedFlashcards onReset={handleReset} />
         )}
       </View>
-      <View style={styles.buttonsContainer}>
-        <Button title="Study Again" onPress={handleStudyAgain} />
-        <Button title="Complete" onPress={handleComplete} />
-        <Button title="Settings" onPress={handleSettingsToggle} />
-      </View>
+      {currentCard && (
+        <View style={styles.buttonsContainer}>
+          <Button title="Study Again" onPress={handleStudyAgain} />
+          <Button title="Complete" onPress={handleComplete} />
+          <Button title="Settings" onPress={handleSettingsToggle} />
+        </View>
+      )}
       {showSettings && (
         <View style={styles.settings}>
           <Text>Settings Modal (to be implemented)</Text>
         </View>
       )}
-      {completedCards.length === deck.length && (
-        <CompletedFlashcards onReset={handleReset} />
-      )}
     </View>
   );
 };
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -122,7 +128,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   card: {
-    width: '80%',
+    width: 600,
     height: '40%',
     justifyContent: 'center',
     alignItems: 'center',

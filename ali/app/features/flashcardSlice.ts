@@ -15,8 +15,7 @@ interface FlashcardState {
   currentCardIndex: number;
   isFront: boolean;
   settings: { front: keyof DataItem; back: keyof DataItem };
-  studiedCards: DataItem[];
-  completedCards: DataItem[];
+  removedCards: DataItem[];
   showSettings: boolean;
 }
 
@@ -25,8 +24,7 @@ const initialState: FlashcardState = {
   currentCardIndex: 0,
   isFront: true,
   settings: { front: 'simplified', back: 'english' },
-  studiedCards: [],
-  completedCards: [],
+  removedCards: [],
   showSettings: false,
 };
 
@@ -43,24 +41,24 @@ const flashcardSlice = createSlice({
     toggleCardSide: (state) => {
       state.isFront = !state.isFront;
     },
+    resetCardSide: (state) => {
+      state.isFront = true;
+    },
     updateSettings: (state, action: PayloadAction<{ front: keyof DataItem; back: keyof DataItem }>) => {
       state.settings = action.payload;
     },
-    addStudiedCard: (state, action: PayloadAction<DataItem>) => {
-      state.studiedCards.push(action.payload);
-    },
-    addCompletedCard: (state, action: PayloadAction<DataItem>) => {
-      state.completedCards.push(action.payload);
+    removeCardFromDeck: (state, action: PayloadAction<number>) => {
+      state.removedCards.push(state.deck[action.payload]);
+      state.deck.splice(action.payload, 1);
     },
     setShowSettings: (state, action: PayloadAction<boolean>) => {
       state.showSettings = action.payload;
     },
-    resetFlashcards: (state) => {
+    resetFlashcards: (state, action: PayloadAction<DataItem[]>) => {
+      state.deck = action.payload;
       state.currentCardIndex = 0;
       state.isFront = true;
-      state.studiedCards = [];
-      state.completedCards = [];
-      state.showSettings = false;
+      state.removedCards = [];
     },
   },
 });
@@ -69,9 +67,9 @@ export const {
   setDeck,
   setCurrentCardIndex,
   toggleCardSide,
+  resetCardSide,
   updateSettings,
-  addStudiedCard,
-  addCompletedCard,
+  removeCardFromDeck,
   setShowSettings,
   resetFlashcards,
 } = flashcardSlice.actions;
