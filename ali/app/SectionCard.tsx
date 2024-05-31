@@ -80,7 +80,7 @@ const SectionCard: React.FC<SectionCardProps> = ({ name, lessons, vocab, image }
   const expandedHeight = 150 + 80 * lessons.length + 60 * totalDialogues;
 
   return (
-    <TouchableOpacity onPress={() => toggleCard(name)}>
+    <TouchableOpacity onPress={() => toggleCard(name)} style={styles.cardContainer}>
       <View style={[styles.card, isExpanded && { height: expandedHeight }]}>
         <View style={styles.header}>
           <Image
@@ -127,6 +127,10 @@ const SectionCard: React.FC<SectionCardProps> = ({ name, lessons, vocab, image }
   );
 };
 const styles = StyleSheet.create({
+  cardContainer: {
+    width: '100%',
+    alignItems: 'center',
+  },
   card: {
     width: '90%',
     flexDirection: 'column',
@@ -154,7 +158,7 @@ const styles = StyleSheet.create({
     fontStyle: 'normal',
     fontWeight: '400',
     lineHeight: 28,
-    textAlign: 'center',
+    textAlign: 'left',
     marginLeft: 10,
   },
   lessonsContainer: {
@@ -163,7 +167,7 @@ const styles = StyleSheet.create({
     alignItems: 'center', // Center the lesson cards
   },
   lessonCard: {
-    width: '85%', // Slightly narrower than the parent card
+    width: 250, // Slightly narrower than the parent card
     padding: 10,
     marginVertical: 5,
     borderRadius: 6,
@@ -187,7 +191,7 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   dialogueCard: {
-    width: '85%', // Slightly narrower than the lesson card
+    width: 200, // Slightly narrower than the lesson card
     padding: 10,
     marginVertical: 5,
     borderRadius: 6,

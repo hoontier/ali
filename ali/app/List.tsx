@@ -76,6 +76,7 @@ const List: React.FC = () => {
             data={words}
             renderItem={renderItem}
             keyExtractor={(item, index) => index.toString()}
+            style = {styles.vocabContainer}
           />
         ) : (
           <Text style={styles.noDataText}>No data available.</Text>
@@ -92,6 +93,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#D9DDE8',
+    alignItems: 'center',
   },
   backButton: {
     position: 'absolute',
@@ -115,6 +117,10 @@ const styles = StyleSheet.create({
   noDataText: {
     fontSize: 18,
     color: '#000',
+  },
+  vocabContainer: {
+    width: '100%',
+    flex: 1,
   },
   vocabItem: {
     padding: 10,

@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   card: {
-    width: 600,
+    width: 340,
     height: '40%',
     justifyContent: 'center',
     alignItems: 'center',
