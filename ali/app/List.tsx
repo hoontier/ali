@@ -1,6 +1,6 @@
 //List.tsx
 import React from 'react';
-import { View, Text, StyleSheet, Pressable, FlatList } from 'react-native';
+import { View, Text, StyleSheet, Pressable, FlatList, SafeAreaView } from 'react-native';
 import { Link } from 'expo-router';
 import { useSelector } from 'react-redux';
 import { RootState } from './features/store';
@@ -64,7 +64,7 @@ const List: React.FC = () => {
   );
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Link href="/ContentSelect" asChild>
         <Pressable style={styles.backButton}>
           <Text style={styles.backButtonText}>Back</Text>
@@ -76,7 +76,7 @@ const List: React.FC = () => {
             data={words}
             renderItem={renderItem}
             keyExtractor={(item, index) => index.toString()}
-            style = {styles.vocabContainer}
+            contentContainerStyle={styles.vocabContainer}
           />
         ) : (
           <Text style={styles.noDataText}>No data available.</Text>
@@ -85,7 +85,7 @@ const List: React.FC = () => {
       <View style={styles.choosePracticeContainer}>
         <ChoosePractice />
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -93,7 +93,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#D9DDE8',
-    alignItems: 'center',
   },
   backButton: {
     position: 'absolute',
@@ -110,17 +109,16 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     paddingTop: 100,
+    paddingHorizontal: 20,
   },
   noDataText: {
     fontSize: 18,
     color: '#000',
+    textAlign: 'center',
   },
   vocabContainer: {
-    width: '100%',
-    flex: 1,
+    paddingBottom: 250, // Add padding to the bottom to make space for the ChoosePractice component
   },
   vocabItem: {
     padding: 10,
@@ -129,7 +127,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     borderColor: '#ACBAE0',
     borderWidth: 1,
-    width: '90%',
+    width: '100%',
   },
   vocabText: {
     fontSize: 16,
@@ -145,7 +143,6 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     alignItems: 'center',
-    zIndex: 2,
   },
 });
 
