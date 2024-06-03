@@ -12,9 +12,17 @@ type WritePopupProps = {
   };
   userAnswer: string;
   onClose: () => void;
+  onMarkCorrect: () => void; // Add this prop
 };
 
-const WritePopup: React.FC<WritePopupProps> = ({ visible, correct, word, userAnswer, onClose }) => {
+const WritePopup: React.FC<WritePopupProps> = ({
+  visible,
+  correct,
+  word,
+  userAnswer,
+  onClose,
+  onMarkCorrect, // Destructure this prop
+}) => {
   return (
     <Modal visible={visible} animationType="slide" transparent={true}>
       <View style={styles.modalContainer}>
@@ -28,7 +36,12 @@ const WritePopup: React.FC<WritePopupProps> = ({ visible, correct, word, userAns
             <Text style={styles.wordText}>English: {word.english}</Text>
             <Text style={styles.wordText}>Your Answer: {userAnswer}</Text>
           </View>
+          {!correct && ( // Only show the button if the answer was incorrect
+            
+            <Button title="I was correct" onPress={onMarkCorrect} />
+          )}
           <Button title="Close" onPress={onClose} />
+
         </View>
       </View>
     </Modal>
@@ -62,7 +75,7 @@ const styles = StyleSheet.create({
   wordText: {
     fontSize: 18,
     marginBottom: 5,
-  },
+  } 
 });
 
 export default WritePopup;
