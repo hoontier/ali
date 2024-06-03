@@ -1,0 +1,2914 @@
+{
+    "Clemson Section A": {
+      "Lesson 1": {
+        "Dialogue 1": [
+          {
+            "simplified": "你从这里往前一直走,就到师大了。",
+            "traditional": "你從這裡往前一直走,就到師大了。",
+            "pinyin": "nǐ cóng zhèlǐ wǎng qián yīzhí zǒu, jiù dào shīdà le.",
+            "english": "If you go straight from here, you will reach NTNU.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "从这个路口往右转,你可以到学校宿舍。",
+            "traditional": "從這個路口往右轉,你可以到學校宿舍。",
+            "pinyin": "cóng zhège lùkǒu wǎng yòu zhuǎn, nǐ kěyǐ dào xuéxiào sùshè.",
+            "english": "If you turn right at this intersection, you can reach the school dormitory.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "从学校大门往里面走十分钟,可以到语言中心。",
+            "traditional": "從學校大門往裡面走十分鐘,可以到語言中心。",
+            "pinyin": "cóng xuéxiào dàmén wǎng lǐmiàn zǒu shí fēnzhōng, kěyǐ dào yǔyán zhōngxīn.",
+            "english": "If you walk ten minutes from the school gate, you can reach the language center.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "你不能(从这里)往前走,前面没有路了。",
+            "traditional": "你不能(從這裡)往前走,前面沒有路了。",
+            "pinyin": "nǐ bùnéng (cóng zhèlǐ) wǎng qián zǒu, qiánmiàn méiyǒu lù le.",
+            "english": "You cannot go forward (from here), there's no road ahead.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "你不可以从这个路口往左转,只可以往右转。",
+            "traditional": "你不可以從這個路口往左轉,只可以往右轉。",
+            "pinyin": "nǐ bù kěyǐ cóng zhège lùkǒu wǎng zuǒ zhuǎn, zhǐ kěyǐ wǎng yòu zhuǎn.",
+            "english": "You cannot turn left at this intersection, you can only turn right.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "这公车不是往师大,是往火车站的。",
+            "traditional": "這公車不是往師大,是往火車站的。",
+            "pinyin": "zhè gōngchē bù shì wǎng shīdà, shì wǎng huǒchē zhàn de.",
+            "english": "This bus is not going to NTNU, it is going to the train station.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "白小姐笑起来很美。",
+            "traditional": "白小姐笑起來很美。",
+            "pinyin": "bái xiǎojiě xiào qǐlái hěn měi.",
+            "english": "Miss Bai looks very beautiful when she smiles.",
+            "structure": "起来(qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "那里卖的小吃看起来很好吃。",
+            "traditional": "那裡賣的小吃看起來很好吃。",
+            "pinyin": "nàlǐ mài de xiǎochī kàn qǐlái hěn hǎochī.",
+            "english": "The snacks sold there look very delicious.",
+            "structure": "起来(qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "这个房子很小,我住起来不习惯。",
+            "traditional": "這個房子很小,我住起來不習慣。",
+            "pinyin": "zhège fángzi hěn xiǎo, wǒ zhù qǐlái bù xíguàn.",
+            "english": "This house is very small, I am not used to living in it.",
+            "structure": "起来(qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "王先生今天的脸色看起来很不好。",
+            "traditional": "王先生今天的臉色看起來很不好。",
+            "pinyin": "wáng xiānshēng jīntiān de liǎnsè kàn qǐlái hěn bù hǎo.",
+            "english": "Mr. Wang looks very unwell today.",
+            "structure": "起来(qǐlái)",
+            "negation": true
+          },
+          {
+            "simplified": "越南菜看起来很辣,吃起来不太辣。",
+            "traditional": "越南菜看起來很辣,吃起來不太辣。",
+            "pinyin": "yuènán cài kàn qǐlái hěn là, chī qǐlái bù tài là.",
+            "english": "Vietnamese food looks very spicy, but it is not very spicy when you eat it.",
+            "structure": "起来(qǐlái)",
+            "negation": true
+          },
+          {
+            "simplified": "你说的事听起来不难。不过,做起来有点难。",
+            "traditional": "你說的事聽起來不難。不過,做起來有點難。",
+            "pinyin": "nǐ shuō de shì tīng qǐlái bù nán. bùguò, zuò qǐlái yǒudiǎn nán.",
+            "english": "What you said doesn't sound difficult. However, it's a bit difficult to do.",
+            "structure": "起来(qǐlái)",
+            "negation": true
+          },
+          {
+            "simplified": "他在门口等着你,你快去吧!",
+            "traditional": "他在門口等著你,你快去吧!",
+            "pinyin": "tā zài ménkǒu děng zhe nǐ, nǐ kuài qù ba!",
+            "english": "He is waiting for you at the door, you should go quickly!",
+            "structure": "着(zhe)",
+            "negation": false
+          },
+          {
+            "simplified": "李明华拿着一杯冰咖啡。",
+            "traditional": "李明華拿著一杯冰咖啡。",
+            "pinyin": "lǐ mínghuá ná zhe yī bēi bīng kāfēi.",
+            "english": "Li Minghua is holding a cup of iced coffee.",
+            "structure": "着(zhe)",
+            "negation": false
+          },
+          {
+            "simplified": "他看着我,什么也没说。",
+            "traditional": "他看著我,什麼也沒說。",
+            "pinyin": "tā kàn zhe wǒ, shénme yě méi shuō.",
+            "english": "He looked at me and said nothing.",
+            "structure": "着(zhe)",
+            "negation": false
+          },
+          {
+            "simplified": "你不要一直坐着,我们去运动吧!",
+            "traditional": "你不要一直坐著,我們去運動吧!",
+            "pinyin": "nǐ bù yào yīzhí zuò zhe, wǒmen qù yùndòng ba!",
+            "english": "Don't just sit there, let's go exercise!",
+            "structure": "着(zhe)",
+            "negation": true
+          },
+          {
+            "simplified": "你别带着咖啡到图书馆去,里面不能喝东西。",
+            "traditional": "你別帶著咖啡到圖書館去,裡面不能喝東西。",
+            "pinyin": "nǐ bié dài zhe kāfēi dào túshūguǎn qù, lǐmiàn bùnéng hē dōngxī.",
+            "english": "Don't bring coffee to the library, you can't drink inside.",
+            "structure": "着(zhe)",
+            "negation": true
+          },
+          {
+            "simplified": "夜市附近的小巷子这么多,要是我没带着地图,一定会迷路。",
+            "traditional": "夜市附近的小巷子這麼多,要是我沒帶著地圖,一定會迷路。",
+            "pinyin": "yèshì fùjìn de xiǎo xiàngzi zhème duō, yàoshi wǒ méi dài zhe dìtú, yīdìng huì mílù.",
+            "english": "There are so many alleys near the night market, if I don't bring a map, I will definitely get lost.",
+            "structure": "着(zhe)",
+            "negation": true
+          },
+          {
+            "simplified": "我常常一边走路,一边听歌。",
+            "traditional": "我常常一邊走路,一邊聽歌。",
+            "pinyin": "wǒ chángcháng yībiān zǒulù, yībiān tīng gē.",
+            "english": "I often walk while listening to music.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "那个小姐喜欢一边吃饭,一边看电视。",
+            "traditional": "那個小姐喜歡一邊吃飯,一邊看電視。",
+            "pinyin": "nàgè xiǎojiě xǐhuān yībiān chīfàn, yībiān kàn diànshì.",
+            "english": "That lady likes to eat while watching TV.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "田中诚一常常一边逛夜市,一边照相。",
+            "traditional": "田中誠一常常一邊逛夜市,一邊照相。",
+            "pinyin": "tiánzhōng chéng yī chángcháng yībiān guàng yèshì, yībiān zhàoxiàng.",
+            "english": "Tian Zhongcheng often visits the night market while taking pictures.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "你不可以一边骑机车,一边打电话。",
+            "traditional": "你不可以一邊騎機車,一邊打電話。",
+            "pinyin": "nǐ bù kěyǐ yībiān qí jīchē, yībiān dǎ diànhuà.",
+            "english": "You can't ride a scooter while talking on the phone.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "请你不要一边上课,一边吃早餐。",
+            "traditional": "請你不要一邊上課,一邊吃早餐。",
+            "pinyin": "qǐng nǐ bù yào yībiān shàngkè, yībiān chī zǎocān.",
+            "english": "Please don't eat breakfast while attending class.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "他没一边工作,一边玩手机。",
+            "traditional": "他沒一邊工作,一邊玩手機。",
+            "pinyin": "tā méi yībiān gōngzuò, yībiān wán shǒujī.",
+            "english": "He didn't work while playing on his phone.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "我家离学校很远。",
+            "traditional": "我家離學校很遠。",
+            "pinyin": "wǒ jiā lí xuéxiào hěn yuǎn.",
+            "english": "My home is far from the school.",
+            "structure": "离(lí)",
+            "negation": false
+          },
+          {
+            "simplified": "离火车站很近的地方,有一家(牛肉)面店的牛肉面很好吃。",
+            "traditional": "離火車站很近的地方,有一家(牛肉)麵店的牛肉麵很好吃。",
+            "pinyin": "lí huǒchē zhàn hěn jìn de dìfāng, yǒu yījiā (niúròu) miàndiàn de niúròu miàn hěn hǎochī.",
+            "english": "There is a beef noodle shop near the train station that has very delicious beef noodles.",
+            "structure": "离(lí)",
+            "negation": false
+          },
+          {
+            "simplified": "你从这里往左边走,离学校不远的地方,可以看到海。",
+            "traditional": "你從這裡往左邊走,離學校不遠的地方,可以看到海。",
+            "pinyin": "nǐ cóng zhèlǐ wǎng zuǒbiān zǒu, lí xuéxiào bù yuǎn de dìfāng, kěyǐ kàn dào hǎi.",
+            "english": "If you go left from here, you can see the sea near the school.",
+            "structure": "离(lí)",
+            "negation": false
+          },
+          {
+            "simplified": "银行离学校不远。你走路去应该就可以了。",
+            "traditional": "銀行離學校不遠。你走路去應該就可以了。",
+            "pinyin": "yínháng lí xuéxiào bù yuǎn. nǐ zǒulù qù yīnggāi jiù kěyǐ le.",
+            "english": "The bank is not far from the school. You should be able to walk there.",
+            "structure": "离(lí)",
+            "negation": true
+          },
+          {
+            "simplified": "花莲离台北不很远,可是到那里要花不少时间。",
+            "traditional": "花蓮離台北不很遠,可是到那裡要花不少時間。",
+            "pinyin": "huālián lí táiběi bù hěn yuǎn, kěshì dào nàlǐ yào huā bù shǎo shíjiān.",
+            "english": "Hualien is not very far from Taipei, but it takes a lot of time to get there.",
+            "structure": "离(lí)",
+            "negation": true
+          },
+          {
+            "simplified": "我要找的房子,不能离夜市太近。",
+            "traditional": "我要找的房子,不能離夜市太近。",
+            "pinyin": "wǒ yào zhǎo de fángzi, bùnéng lí yèshì tài jìn.",
+            "english": "The house I am looking for cannot be too close to the night market.",
+            "structure": "离(lí)",
+            "negation": true
+          }
+        ],
+        "Dialogue 2": [          {
+            "simplified": "你从这里往前一直走,就到师大了。",
+            "traditional": "你從這裡往前一直走,就到師大了。",
+            "pinyin": "nǐ cóng zhèlǐ wǎng qián yīzhí zǒu, jiù dào shīdà le.",
+            "english": "If you go straight from here, you will reach NTNU.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "从这个路口往右转,你可以到学校宿舍。",
+            "traditional": "從這個路口往右轉,你可以到學校宿舍。",
+            "pinyin": "cóng zhège lùkǒu wǎng yòu zhuǎn, nǐ kěyǐ dào xuéxiào sùshè.",
+            "english": "If you turn right at this intersection, you can reach the school dormitory.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "从学校大门往里面走十分钟,可以到语言中心。",
+            "traditional": "從學校大門往裡面走十分鐘,可以到語言中心。",
+            "pinyin": "cóng xuéxiào dàmén wǎng lǐmiàn zǒu shí fēnzhōng, kěyǐ dào yǔyán zhōngxīn.",
+            "english": "If you walk ten minutes from the school gate, you can reach the language center.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "你不能(从这里)往前走,前面没有路了。",
+            "traditional": "你不能(從這裡)往前走,前面沒有路了。",
+            "pinyin": "nǐ bùnéng (cóng zhèlǐ) wǎng qián zǒu, qiánmiàn méiyǒu lù le.",
+            "english": "You cannot go forward (from here), there's no road ahead.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "你不可以从这个路口往左转,只可以往右转。",
+            "traditional": "你不可以從這個路口往左轉,只可以往右轉。",
+            "pinyin": "nǐ bù kěyǐ cóng zhège lùkǒu wǎng zuǒ zhuǎn, zhǐ kěyǐ wǎng yòu zhuǎn.",
+            "english": "You cannot turn left at this intersection, you can only turn right.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "这公车不是往师大,是往火车站的。",
+            "traditional": "這公車不是往師大,是往火車站的。",
+            "pinyin": "zhè gōngchē bù shì wǎng shīdà, shì wǎng huǒchē zhàn de.",
+            "english": "This bus is not going to NTNU, it is going to the train station.",
+            "structure": "从(cóng)。。。往(wǎng)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "白小姐笑起来很美。",
+            "traditional": "白小姐笑起來很美。",
+            "pinyin": "bái xiǎojiě xiào qǐlái hěn měi.",
+            "english": "Miss Bai looks very beautiful when she smiles.",
+            "structure": "起来(qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "那里卖的小吃看起来很好吃。",
+            "traditional": "那裡賣的小吃看起來很好吃。",
+            "pinyin": "nàlǐ mài de xiǎochī kàn qǐlái hěn hǎochī.",
+            "english": "The snacks sold there look very delicious.",
+            "structure": "起来(qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "这个房子很小,我住起来不习惯。",
+            "traditional": "這個房子很小,我住起來不習慣。",
+            "pinyin": "zhège fángzi hěn xiǎo, wǒ zhù qǐlái bù xíguàn.",
+            "english": "This house is very small, I am not used to living in it.",
+            "structure": "起来(qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "王先生今天的脸色看起来很不好。",
+            "traditional": "王先生今天的臉色看起來很不好。",
+            "pinyin": "wáng xiānshēng jīntiān de liǎnsè kàn qǐlái hěn bù hǎo.",
+            "english": "Mr. Wang looks very unwell today.",
+            "structure": "起来(qǐlái)",
+            "negation": true
+          },
+          {
+            "simplified": "越南菜看起来很辣,吃起来不太辣。",
+            "traditional": "越南菜看起來很辣,吃起來不太辣。",
+            "pinyin": "yuènán cài kàn qǐlái hěn là, chī qǐlái bù tài là.",
+            "english": "Vietnamese food looks very spicy, but it is not very spicy when you eat it.",
+            "structure": "起来(qǐlái)",
+            "negation": true
+          },
+          {
+            "simplified": "你说的事听起来不难。不过,做起来有点难。",
+            "traditional": "你說的事聽起來不難。不過,做起來有點難。",
+            "pinyin": "nǐ shuō de shì tīng qǐlái bù nán. bùguò, zuò qǐlái yǒudiǎn nán.",
+            "english": "What you said doesn't sound difficult. However, it's a bit difficult to do.",
+            "structure": "起来(qǐlái)",
+            "negation": true
+          },
+          {
+            "simplified": "他在门口等着你,你快去吧!",
+            "traditional": "他在門口等著你,你快去吧!",
+            "pinyin": "tā zài ménkǒu děng zhe nǐ, nǐ kuài qù ba!",
+            "english": "He is waiting for you at the door, you should go quickly!",
+            "structure": "着(zhe)",
+            "negation": false
+          },
+          {
+            "simplified": "李明华拿着一杯冰咖啡。",
+            "traditional": "李明華拿著一杯冰咖啡。",
+            "pinyin": "lǐ mínghuá ná zhe yī bēi bīng kāfēi.",
+            "english": "Li Minghua is holding a cup of iced coffee.",
+            "structure": "着(zhe)",
+            "negation": false
+          },
+          {
+            "simplified": "他看着我,什么也没说。",
+            "traditional": "他看著我,什麼也沒說。",
+            "pinyin": "tā kàn zhe wǒ, shénme yě méi shuō.",
+            "english": "He looked at me and said nothing.",
+            "structure": "着(zhe)",
+            "negation": false
+          },
+          {
+            "simplified": "你不要一直坐着,我们去运动吧!",
+            "traditional": "你不要一直坐著,我們去運動吧!",
+            "pinyin": "nǐ bù yào yīzhí zuò zhe, wǒmen qù yùndòng ba!",
+            "english": "Don't just sit there, let's go exercise!",
+            "structure": "着(zhe)",
+            "negation": true
+          },
+          {
+            "simplified": "你别带着咖啡到图书馆去,里面不能喝东西。",
+            "traditional": "你別帶著咖啡到圖書館去,裡面不能喝東西。",
+            "pinyin": "nǐ bié dài zhe kāfēi dào túshūguǎn qù, lǐmiàn bùnéng hē dōngxī.",
+            "english": "Don't bring coffee to the library, you can't drink inside.",
+            "structure": "着(zhe)",
+            "negation": true
+          },
+          {
+            "simplified": "夜市附近的小巷子这么多,要是我没带着地图,一定会迷路。",
+            "traditional": "夜市附近的小巷子這麼多,要是我沒帶著地圖,一定會迷路。",
+            "pinyin": "yèshì fùjìn de xiǎo xiàngzi zhème duō, yàoshi wǒ méi dài zhe dìtú, yīdìng huì mílù.",
+            "english": "There are so many alleys near the night market, if I don't bring a map, I will definitely get lost.",
+            "structure": "着(zhe)",
+            "negation": true
+          },
+          {
+            "simplified": "我常常一边走路,一边听歌。",
+            "traditional": "我常常一邊走路,一邊聽歌。",
+            "pinyin": "wǒ chángcháng yībiān zǒulù, yībiān tīng gē.",
+            "english": "I often walk while listening to music.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "那个小姐喜欢一边吃饭,一边看电视。",
+            "traditional": "那個小姐喜歡一邊吃飯,一邊看電視。",
+            "pinyin": "nàgè xiǎojiě xǐhuān yībiān chīfàn, yībiān kàn diànshì.",
+            "english": "That lady likes to eat while watching TV.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "田中诚一常常一边逛夜市,一边照相。",
+            "traditional": "田中誠一常常一邊逛夜市,一邊照相。",
+            "pinyin": "tiánzhōng chéng yī chángcháng yībiān guàng yèshì, yībiān zhàoxiàng.",
+            "english": "Tian Zhongcheng often visits the night market while taking pictures.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": false
+          },
+          {
+            "simplified": "你不可以一边骑机车,一边打电话。",
+            "traditional": "你不可以一邊騎機車,一邊打電話。",
+            "pinyin": "nǐ bù kěyǐ yībiān qí jīchē, yībiān dǎ diànhuà.",
+            "english": "You can't ride a scooter while talking on the phone.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "请你不要一边上课,一边吃早餐。",
+            "traditional": "請你不要一邊上課,一邊吃早餐。",
+            "pinyin": "qǐng nǐ bù yào yībiān shàngkè, yībiān chī zǎocān.",
+            "english": "Please don't eat breakfast while attending class.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "他没一边工作,一边玩手机。",
+            "traditional": "他沒一邊工作,一邊玩手機。",
+            "pinyin": "tā méi yībiān gōngzuò, yībiān wán shǒujī.",
+            "english": "He didn't work while playing on his phone.",
+            "structure": "一边(yībiān)。。。一边(yībiān)。。。",
+            "negation": true
+          },
+          {
+            "simplified": "我家离学校很远。",
+            "traditional": "我家離學校很遠。",
+            "pinyin": "wǒ jiā lí xuéxiào hěn yuǎn.",
+            "english": "My home is far from the school.",
+            "structure": "离(lí)",
+            "negation": false
+          },
+          {
+            "simplified": "离火车站很近的地方,有一家(牛肉)面店的牛肉面很好吃。",
+            "traditional": "離火車站很近的地方,有一家(牛肉)麵店的牛肉麵很好吃。",
+            "pinyin": "lí huǒchē zhàn hěn jìn de dìfāng, yǒu yījiā (niúròu) miàndiàn de niúròu miàn hěn hǎochī.",
+            "english": "There is a beef noodle shop near the train station that has very delicious beef noodles.",
+            "structure": "离(lí)",
+            "negation": false
+          },
+          {
+            "simplified": "你从这里往左边走,离学校不远的地方,可以看到海。",
+            "traditional": "你從這裡往左邊走,離學校不遠的地方,可以看到海。",
+            "pinyin": "nǐ cóng zhèlǐ wǎng zuǒbiān zǒu, lí xuéxiào bù yuǎn de dìfāng, kěyǐ kàn dào hǎi.",
+            "english": "If you go left from here, you can see the sea near the school.",
+            "structure": "离(lí)",
+            "negation": false
+          },
+          {
+            "simplified": "银行离学校不远。你走路去应该就可以了。",
+            "traditional": "銀行離學校不遠。你走路去應該就可以了。",
+            "pinyin": "yínháng lí xuéxiào bù yuǎn. nǐ zǒulù qù yīnggāi jiù kěyǐ le.",
+            "english": "The bank is not far from the school. You should be able to walk there.",
+            "structure": "离(lí)",
+            "negation": true
+          },
+          {
+            "simplified": "花莲离台北不很远,可是到那里要花不少时间。",
+            "traditional": "花蓮離台北不很遠,可是到那裡要花不少時間。",
+            "pinyin": "huālián lí táiběi bù hěn yuǎn, kěshì dào nàlǐ yào huā bù shǎo shíjiān.",
+            "english": "Hualien is not very far from Taipei, but it takes a lot of time to get there.",
+            "structure": "离(lí)",
+            "negation": true
+          },
+          {
+            "simplified": "我要找的房子,不能离夜市太近。",
+            "traditional": "我要找的房子,不能離夜市太近。",
+            "pinyin": "wǒ yào zhǎo de fángzi, bùnéng lí yèshì tài jìn.",
+            "english": "The house I am looking for cannot be too close to the night market.",
+            "structure": "离(lí)",
+            "negation": true
+          }]
+      },
+      "Lesson 2": {
+        "Dialogue 1": [
+          {
+            "simplified": "一点也不慢,比捷运方便。",
+            "traditional": "一點也不慢,比捷運方便。",
+            "pinyin": "yīdiǎn yě bù màn, bǐ jiéyùn fāngbiàn.",
+            "english": "Not slow at all, more convenient than the MRT.",
+            "structure": "一点也不(yīdiǎn yě bù) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "他一点茶也不喝。",
+            "traditional": "他一點茶也不喝。",
+            "pinyin": "tā yīdiǎn chá yě bù hē.",
+            "english": "He doesn't drink any tea at all.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "夜市的东西一点也不贵。",
+            "traditional": "夜市的東西一點也不貴。",
+            "pinyin": "yèshì de dōngxi yīdiǎn yě bù guì.",
+            "english": "The things in the night market are not expensive at all.",
+            "structure": "一点也不(yīdiǎn yě bù) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "已经晚上十二点多了,他们一点也不想睡觉。",
+            "traditional": "已經晚上十二點多了,他們一點也不想睡覺。",
+            "pinyin": "yǐjīng wǎnshàng shí'èr diǎn duō le, tāmen yīdiǎn yě bù xiǎng shuìjiào.",
+            "english": "It's already past midnight, and they don't want to sleep at all.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他昨天一点饭也没吃。",
+            "traditional": "他昨天一點飯也沒吃。",
+            "pinyin": "tā zuótiān yīdiǎn fàn yě méi chī.",
+            "english": "He didn't eat any rice at all yesterday.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我一点汤也没喝。",
+            "traditional": "我一點湯也沒喝。",
+            "pinyin": "wǒ yīdiǎn tāng yě méi hē.",
+            "english": "I didn't drink any soup at all.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "这支手机是不是一点也不好用?所以没人买。",
+            "traditional": "這支手機是不是一點也不好用?所以沒人買。",
+            "pinyin": "zhè zhī shǒujī shì bù shì yīdiǎn yě bù hǎo yòng? suǒyǐ méi rén mǎi.",
+            "english": "Isn't this phone not useful at all? That's why no one buys it.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他生病这几天一点东西都没吃吗?",
+            "traditional": "他生病這幾天一點東西都沒吃嗎?",
+            "pinyin": "tā shēngbìng zhè jǐ tiān yīdiǎn dōngxi dōu méi chī ma?",
+            "english": "Has he not eaten anything at all these days when he's sick?",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我们来这里玩,你怎么一点也不开心?",
+            "traditional": "我們來這裡玩,你怎麼一點也不開心?",
+            "pinyin": "wǒmen lái zhèlǐ wán, nǐ zěnme yīdiǎn yě bù kāixīn?",
+            "english": "We came here to play, why are you not happy at all?",
+            "structure": "一点也不(yīdiǎn yě bù) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "我最近很忙,我们还是周末再出去吃饭吧!",
+            "traditional": "我最近很忙,我們還是週末再出去吃飯吧!",
+            "pinyin": "wǒ zuìjìn hěn máng, wǒmen háishì zhōumò zài chūqù chīfàn ba!",
+            "english": "I've been very busy recently, let's go out for dinner this weekend instead!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "已经晚上十一点了,我还是明天早上再给老师打电话吧!",
+            "traditional": "已經晚上十一點了,我還是明天早上再給老師打電話吧!",
+            "pinyin": "yǐjīng wǎnshàng shíyī diǎn le, wǒ háishì míngtiān zǎoshang zài gěi lǎoshī dǎ diànhuà ba!",
+            "english": "It's already 11 PM, I'll call the teacher tomorrow morning instead!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "去学校,可以坐公车,也可以坐捷运,但是坐捷运比较快,我们还是坐捷运去吧!",
+            "traditional": "去學校,可以坐公車,也可以坐捷運,但是坐捷運比較快,我們還是坐捷運去吧!",
+            "pinyin": "qù xuéxiào, kěyǐ zuò gōngchē, yě kěyǐ zuò jiéyùn, dànshì zuò jiéyùn bǐjiào kuài, wǒmen háishì zuò jiéyùn qù ba!",
+            "english": "To go to school, you can take the bus or the MRT, but the MRT is faster. Let's take the MRT instead!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "坐公车很慢,我们还是不要坐公车吧!",
+            "traditional": "坐公車很慢,我們還是不要坐公車吧!",
+            "pinyin": "zuò gōngchē hěn màn, wǒmen háishì bùyào zuò gōngchē ba!",
+            "english": "Taking the bus is slow, let's not take the bus!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "雨下得很大,今天你还是别回家吧!",
+            "traditional": "雨下得很大,今天你還是別回家吧!",
+            "pinyin": "yǔ xià de hěn dà, jīntiān nǐ háishì bié huí jiā ba!",
+            "english": "It's raining heavily, you better not go home today!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "他听了一定不开心,你还是别告诉他吧!",
+            "traditional": "他聽了一定不開心,你還是別告訴他吧!",
+            "pinyin": "tā tīngle yīdìng bù kāixīn, nǐ háishì bié gàosù tā ba!",
+            "english": "He will definitely not be happy when he hears it, better not tell him!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "你走慢一点!",
+            "traditional": "你走慢一點!",
+            "pinyin": "nǐ zǒu màn yīdiǎn!",
+            "english": "Walk a bit slower!",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你们吃快一点!",
+            "traditional": "你們吃快一點!",
+            "pinyin": "nǐmen chī kuài yīdiǎn!",
+            "english": "Eat a bit faster!",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你的字要写好看一点!",
+            "traditional": "你的字要寫好看一點!",
+            "pinyin": "nǐ de zì yào xiě hǎokàn yīdiǎn!",
+            "english": "Write your characters a bit more nicely!",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你不写好看一点,老师说要再写一次。",
+            "traditional": "你不寫好看一點,老師說要再寫一次。",
+            "pinyin": "nǐ bù xiě hǎokàn yīdiǎn, lǎoshī shuō yào zài xiě yīcì.",
+            "english": "If you don't write more nicely, the teacher said you have to write it again.",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "要是你不唱好听一点,就不能去比赛了。",
+            "traditional": "要是你不唱好聽一點,就不能去比賽了。",
+            "pinyin": "yàoshi nǐ bù chàng hǎotīng yīdiǎn, jiù bùnéng qù bǐsài le.",
+            "english": "If you don't sing a bit better, you won't be able to go to the competition.",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你不走快一点,就不能跟朋友见面了。",
+            "traditional": "你不走快一點,就不能跟朋友見面了。",
+            "pinyin": "nǐ bù zǒu kuài yīdiǎn, jiù bùnéng gēn péngyǒu jiànmiàn le.",
+            "english": "If you don't walk faster, you won't be able to meet your friends.",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "要上课了。你还不走快一点吗?",
+            "traditional": "要上課了。你還不走快一點嗎?",
+            "pinyin": "yào shàngkè le. nǐ hái bù zǒu kuài yīdiǎn ma?",
+            "english": "Class is about to start. Why aren't you walking faster?",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "路上车那么多。你是不是骑慢一点比较好?",
+            "traditional": "路上車那麼多。你是不是騎慢一點比較好?",
+            "pinyin": "lùshàng chē nàme duō. nǐ shì bùshì qí màn yīdiǎn bǐjiào hǎo?",
+            "english": "There are so many cars on the road. Isn't it better to ride a bit slower?",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你说得太快了。可以说慢一点吗?",
+            "traditional": "你說得太快了。可以說慢一點嗎?",
+            "pinyin": "nǐ shuō de tài kuài le. kěyǐ shuō màn yīdiǎn ma?",
+            "english": "You spoke too fast. Can you speak a bit slower?",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "他们开开心心地一起吃饭。",
+            "traditional": "他們開開心心地一起吃飯。",
+            "pinyin": "tāmen kāikāixīnxīn de yīqǐ chīfàn.",
+            "english": "They happily eat together.",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "王老板客客气气地跟人说话。",
+            "traditional": "王老闆客客氣氣地跟人說話。",
+            "pinyin": "wáng lǎobǎn kè kè qì qì de gēn rén shuōhuà.",
+            "english": "Boss Wang speaks to people politely.",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "月美每天都穿得漂漂亮亮(的)。",
+            "traditional": "月美每天都穿得漂漂亮亮(的)。",
+            "pinyin": "yuè měi měitiān dōu chuān de piàopiàoliangliang (de).",
+            "english": "Yuemei dresses beautifully every day.",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "那里的厨房是不是干干净净的?",
+            "traditional": "那裡的廚房是不是乾乾淨淨的?",
+            "pinyin": "nàlǐ de chúfáng shì bù shì gāngānjìngjìng de?",
+            "english": "Is the kitchen there clean?",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "学生是不是每天都快快乐乐的?",
+            "traditional": "學生是不是每天都快快樂樂的?",
+            "pinyin": "xuéshēng shì bù shì měitiān dōu kuài kuàilè lè de?",
+            "english": "Are the students happy every day?",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "房东对你们一直都客客气气的。",
+            "traditional": "房東對你們一直都客客氣氣的。",
+            "pinyin": "fángdōng duì nǐmen yīzhí dōu kè kè qì qì de.",
+            "english": "The landlord has always been polite to you.",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "我觉得骑车去不太累,很好玩。",
+            "traditional": "我覺得騎車去不太累,很好玩。",
+            "pinyin": "wǒ juéde qí chē qù bù tài lèi, hěn hǎo wán.",
+            "english": "I don't think riding a bike there is too tiring, it's fun.",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "高铁票不太贵!",
+            "traditional": "高鐵票不太貴!",
+            "pinyin": "gāotiě piào bù tài guì!",
+            "english": "High-speed rail tickets are not too expensive!",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "今天不太冷!",
+            "traditional": "今天不太冷!",
+            "pinyin": "jīntiān bù tài lěng!",
+            "english": "It's not too cold today!",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "放假的时候,高铁票是不是不太好买?",
+            "traditional": "放假的時候,高鐵票是不是不太好買?",
+            "pinyin": "fàngjià de shíhòu, gāotiě piào shì bù shì bù tài hǎo mǎi?",
+            "english": "Are high-speed rail tickets not easy to buy during holidays?",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "去西班牙的飞机是不是不太多?",
+            "traditional": "去西班牙的飛機是不是不太多?",
+            "pinyin": "qù xībānyá de fēijī shì bù shì bù tài duō?",
+            "english": "Are there not many flights to Spain?",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "台湾的秋天和日本的秋天是不是不太一样?",
+            "traditional": "台灣的秋天和日本的秋天是不是不太一樣?",
+            "pinyin": "táiwān de qiūtiān hé rìběn de qiūtiān shì bù shì bù tài yīyàng?",
+            "english": "Isn't Taiwan's autumn different from Japan's autumn?",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "台湾的北部、南部有很多好玩的地方。",
+            "traditional": "台灣的北部、南部有很多好玩的地方。",
+            "pinyin": "táiwān de běibù, nánbù yǒu hěnduō hǎowán de dìfāng.",
+            "english": "There are many fun places in the northern and southern parts of Taiwan.",
+            "structure": "部(bù)/边(biān)",
+            "negation": false
+          },
+          {
+            "simplified": "台湾东部的风景很美。",
+            "traditional": "台灣東部的風景很美。",
+            "pinyin": "táiwān dōngbù de fēngjǐng hěn měi.",
+            "english": "The scenery in eastern Taiwan is beautiful.",
+            "structure": "部(bù)/边(biān)",
+            "negation": false
+          },
+          {
+            "simplified": "台湾东边的大海非常干净。",
+            "traditional": "台灣東邊的大海非常乾淨。",
+            "pinyin": "táiwān dōngbiān de dàhǎi fēicháng gānjìng.",
+            "english": "The sea on the east side of Taiwan is very clean.",
+            "structure": "部(bù)/边(biān)",
+            "negation": false
+          },
+          {
+            "simplified": "那个地方西边有山,南边有海。",
+            "traditional": "那個地方西邊有山,南邊有海。",
+            "pinyin": "nàgè dìfāng xībiān yǒu shān, nánbiān yǒu hǎi.",
+            "english": "That place has mountains to the west and the sea to the south.",
+            "structure": "部(bù)/边(biān)",
+            "negation": false
+          }
+        ],
+        "Dialogue 2":[
+          {
+            "simplified": "一点也不慢,比捷运方便。",
+            "traditional": "一點也不慢,比捷運方便。",
+            "pinyin": "yīdiǎn yě bù màn, bǐ jiéyùn fāngbiàn.",
+            "english": "Not slow at all, more convenient than the MRT.",
+            "structure": "一点也不(yīdiǎn yě bù) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "他一点茶也不喝。",
+            "traditional": "他一點茶也不喝。",
+            "pinyin": "tā yīdiǎn chá yě bù hē.",
+            "english": "He doesn't drink any tea at all.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "夜市的东西一点也不贵。",
+            "traditional": "夜市的東西一點也不貴。",
+            "pinyin": "yèshì de dōngxi yīdiǎn yě bù guì.",
+            "english": "The things in the night market are not expensive at all.",
+            "structure": "一点也不(yīdiǎn yě bù) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "已经晚上十二点多了,他们一点也不想睡觉。",
+            "traditional": "已經晚上十二點多了,他們一點也不想睡覺。",
+            "pinyin": "yǐjīng wǎnshàng shí'èr diǎn duō le, tāmen yīdiǎn yě bù xiǎng shuìjiào.",
+            "english": "It's already past midnight, and they don't want to sleep at all.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他昨天一点饭也没吃。",
+            "traditional": "他昨天一點飯也沒吃。",
+            "pinyin": "tā zuótiān yīdiǎn fàn yě méi chī.",
+            "english": "He didn't eat any rice at all yesterday.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我一点汤也没喝。",
+            "traditional": "我一點湯也沒喝。",
+            "pinyin": "wǒ yīdiǎn tāng yě méi hē.",
+            "english": "I didn't drink any soup at all.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "这支手机是不是一点也不好用?所以没人买。",
+            "traditional": "這支手機是不是一點也不好用?所以沒人買。",
+            "pinyin": "zhè zhī shǒujī shì bù shì yīdiǎn yě bù hǎo yòng? suǒyǐ méi rén mǎi.",
+            "english": "Isn't this phone not useful at all? That's why no one buys it.",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他生病这几天一点东西都没吃吗?",
+            "traditional": "他生病這幾天一點東西都沒吃嗎?",
+            "pinyin": "tā shēngbìng zhè jǐ tiān yīdiǎn dōngxi dōu méi chī ma?",
+            "english": "Has he not eaten anything at all these days when he's sick?",
+            "structure": "一点也不(yīdiǎn yě bù) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我们来这里玩,你怎么一点也不开心?",
+            "traditional": "我們來這裡玩,你怎麼一點也不開心?",
+            "pinyin": "wǒmen lái zhèlǐ wán, nǐ zěnme yīdiǎn yě bù kāixīn?",
+            "english": "We came here to play, why are you not happy at all?",
+            "structure": "一点也不(yīdiǎn yě bù) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "我最近很忙,我们还是周末再出去吃饭吧!",
+            "traditional": "我最近很忙,我們還是週末再出去吃飯吧!",
+            "pinyin": "wǒ zuìjìn hěn máng, wǒmen háishì zhōumò zài chūqù chīfàn ba!",
+            "english": "I've been very busy recently, let's go out for dinner this weekend instead!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "已经晚上十一点了,我还是明天早上再给老师打电话吧!",
+            "traditional": "已經晚上十一點了,我還是明天早上再給老師打電話吧!",
+            "pinyin": "yǐjīng wǎnshàng shíyī diǎn le, wǒ háishì míngtiān zǎoshang zài gěi lǎoshī dǎ diànhuà ba!",
+            "english": "It's already 11 PM, I'll call the teacher tomorrow morning instead!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "去学校,可以坐公车,也可以坐捷运,但是坐捷运比较快,我们还是坐捷运去吧!",
+            "traditional": "去學校,可以坐公車,也可以坐捷運,但是坐捷運比較快,我們還是坐捷運去吧!",
+            "pinyin": "qù xuéxiào, kěyǐ zuò gōngchē, yě kěyǐ zuò jiéyùn, dànshì zuò jiéyùn bǐjiào kuài, wǒmen háishì zuò jiéyùn qù ba!",
+            "english": "To go to school, you can take the bus or the MRT, but the MRT is faster. Let's take the MRT instead!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "坐公车很慢,我们还是不要坐公车吧!",
+            "traditional": "坐公車很慢,我們還是不要坐公車吧!",
+            "pinyin": "zuò gōngchē hěn màn, wǒmen háishì bùyào zuò gōngchē ba!",
+            "english": "Taking the bus is slow, let's not take the bus!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "雨下得很大,今天你还是别回家吧!",
+            "traditional": "雨下得很大,今天你還是別回家吧!",
+            "pinyin": "yǔ xià de hěn dà, jīntiān nǐ háishì bié huí jiā ba!",
+            "english": "It's raining heavily, you better not go home today!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "他听了一定不开心,你还是别告诉他吧!",
+            "traditional": "他聽了一定不開心,你還是別告訴他吧!",
+            "pinyin": "tā tīngle yīdìng bù kāixīn, nǐ háishì bié gàosù tā ba!",
+            "english": "He will definitely not be happy when he hears it, better not tell him!",
+            "structure": "还是(háishì) + suggestion",
+            "negation": false
+          },
+          {
+            "simplified": "你走慢一点!",
+            "traditional": "你走慢一點!",
+            "pinyin": "nǐ zǒu màn yīdiǎn!",
+            "english": "Walk a bit slower!",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你们吃快一点!",
+            "traditional": "你們吃快一點!",
+            "pinyin": "nǐmen chī kuài yīdiǎn!",
+            "english": "Eat a bit faster!",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你的字要写好看一点!",
+            "traditional": "你的字要寫好看一點!",
+            "pinyin": "nǐ de zì yào xiě hǎokàn yīdiǎn!",
+            "english": "Write your characters a bit more nicely!",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你不写好看一点,老师说要再写一次。",
+            "traditional": "你不寫好看一點,老師說要再寫一次。",
+            "pinyin": "nǐ bù xiě hǎokàn yīdiǎn, lǎoshī shuō yào zài xiě yīcì.",
+            "english": "If you don't write more nicely, the teacher said you have to write it again.",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "要是你不唱好听一点,就不能去比赛了。",
+            "traditional": "要是你不唱好聽一點,就不能去比賽了。",
+            "pinyin": "yàoshi nǐ bù chàng hǎotīng yīdiǎn, jiù bùnéng qù bǐsài le.",
+            "english": "If you don't sing a bit better, you won't be able to go to the competition.",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你不走快一点,就不能跟朋友见面了。",
+            "traditional": "你不走快一點,就不能跟朋友見面了。",
+            "pinyin": "nǐ bù zǒu kuài yīdiǎn, jiù bùnéng gēn péngyǒu jiànmiàn le.",
+            "english": "If you don't walk faster, you won't be able to meet your friends.",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "要上课了。你还不走快一点吗?",
+            "traditional": "要上課了。你還不走快一點嗎?",
+            "pinyin": "yào shàngkè le. nǐ hái bù zǒu kuài yīdiǎn ma?",
+            "english": "Class is about to start. Why aren't you walking faster?",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "路上车那么多。你是不是骑慢一点比较好?",
+            "traditional": "路上車那麼多。你是不是騎慢一點比較好?",
+            "pinyin": "lùshàng chē nàme duō. nǐ shì bùshì qí màn yīdiǎn bǐjiào hǎo?",
+            "english": "There are so many cars on the road. Isn't it better to ride a bit slower?",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "你说得太快了。可以说慢一点吗?",
+            "traditional": "你說得太快了。可以說慢一點嗎?",
+            "pinyin": "nǐ shuō de tài kuài le. kěyǐ shuō màn yīdiǎn ma?",
+            "english": "You spoke too fast. Can you speak a bit slower?",
+            "structure": "verb + 一点(yīdiǎn)",
+            "negation": false
+          },
+          {
+            "simplified": "他们开开心心地一起吃饭。",
+            "traditional": "他們開開心心地一起吃飯。",
+            "pinyin": "tāmen kāikāixīnxīn de yīqǐ chīfàn.",
+            "english": "They happily eat together.",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "王老板客客气气地跟人说话。",
+            "traditional": "王老闆客客氣氣地跟人說話。",
+            "pinyin": "wáng lǎobǎn kè kè qì qì de gēn rén shuōhuà.",
+            "english": "Boss Wang speaks to people politely.",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "月美每天都穿得漂漂亮亮(的)。",
+            "traditional": "月美每天都穿得漂漂亮亮(的)。",
+            "pinyin": "yuè měi měitiān dōu chuān de piàopiàoliangliang (de).",
+            "english": "Yuemei dresses beautifully every day.",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "那里的厨房是不是干干净净的?",
+            "traditional": "那裡的廚房是不是乾乾淨淨的?",
+            "pinyin": "nàlǐ de chúfáng shì bù shì gāngānjìngjìng de?",
+            "english": "Is the kitchen there clean?",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "学生是不是每天都快快乐乐的?",
+            "traditional": "學生是不是每天都快快樂樂的?",
+            "pinyin": "xuéshēng shì bù shì měitiān dōu kuài kuàilè lè de?",
+            "english": "Are the students happy every day?",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "房东对你们一直都客客气气的。",
+            "traditional": "房東對你們一直都客客氣氣的。",
+            "pinyin": "fángdōng duì nǐmen yīzhí dōu kè kè qì qì de.",
+            "english": "The landlord has always been polite to you.",
+            "structure": "repetition of disyllabic adjectives",
+            "negation": false
+          },
+          {
+            "simplified": "我觉得骑车去不太累,很好玩。",
+            "traditional": "我覺得騎車去不太累,很好玩。",
+            "pinyin": "wǒ juéde qí chē qù bù tài lèi, hěn hǎo wán.",
+            "english": "I don't think riding a bike there is too tiring, it's fun.",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "高铁票不太贵!",
+            "traditional": "高鐵票不太貴!",
+            "pinyin": "gāotiě piào bù tài guì!",
+            "english": "High-speed rail tickets are not too expensive!",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "今天不太冷!",
+            "traditional": "今天不太冷!",
+            "pinyin": "jīntiān bù tài lěng!",
+            "english": "It's not too cold today!",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "放假的时候,高铁票是不是不太好买?",
+            "traditional": "放假的時候,高鐵票是不是不太好買?",
+            "pinyin": "fàngjià de shíhòu, gāotiě piào shì bù shì bù tài hǎo mǎi?",
+            "english": "Are high-speed rail tickets not easy to buy during holidays?",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "去西班牙的飞机是不是不太多?",
+            "traditional": "去西班牙的飛機是不是不太多?",
+            "pinyin": "qù xībānyá de fēijī shì bù shì bù tài duō?",
+            "english": "Are there not many flights to Spain?",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "台湾的秋天和日本的秋天是不是不太一样?",
+            "traditional": "台灣的秋天和日本的秋天是不是不太一樣?",
+            "pinyin": "táiwān de qiūtiān hé rìběn de qiūtiān shì bù shì bù tài yīyàng?",
+            "english": "Isn't Taiwan's autumn different from Japan's autumn?",
+            "structure": "不太(bù tài) + adjective",
+            "negation": false
+          },
+          {
+            "simplified": "台湾的北部、南部有很多好玩的地方。",
+            "traditional": "台灣的北部、南部有很多好玩的地方。",
+            "pinyin": "táiwān de běibù, nánbù yǒu hěnduō hǎowán de dìfāng.",
+            "english": "There are many fun places in the northern and southern parts of Taiwan.",
+            "structure": "部(bù)/边(biān)",
+            "negation": false
+          },
+          {
+            "simplified": "台湾东部的风景很美。",
+            "traditional": "台灣東部的風景很美。",
+            "pinyin": "táiwān dōngbù de fēngjǐng hěn měi.",
+            "english": "The scenery in eastern Taiwan is beautiful.",
+            "structure": "部(bù)/边(biān)",
+            "negation": false
+          },
+          {
+            "simplified": "台湾东边的大海非常干净。",
+            "traditional": "台灣東邊的大海非常乾淨。",
+            "pinyin": "táiwān dōngbiān de dàhǎi fēicháng gānjìng.",
+            "english": "The sea on the east side of Taiwan is very clean.",
+            "structure": "部(bù)/边(biān)",
+            "negation": false
+          },
+          {
+            "simplified": "那个地方西边有山,南边有海。",
+            "traditional": "那個地方西邊有山,南邊有海。",
+            "pinyin": "nàgè dìfāng xībiān yǒu shān, nánbiān yǒu hǎi.",
+            "english": "That place has mountains to the west and the sea to the south.",
+            "structure": "部(bù)/边(biān)",
+            "negation": false
+          }
+        ]
+      },
+      "Lesson 3": {
+        "Dialogue 1": [
+          {
+            "simplified": "我们开始学中文的时间差不多。",
+            "traditional": "我們開始學中文的時間差不多。",
+            "pinyin": "wǒmen kāishǐ xué zhōngwén de shíjiān chàbùduō.",
+            "english": "The time we started learning Chinese is about the same.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "那几家超市卖的东西都差不多。",
+            "traditional": "那幾家超市賣的東西都差不多。",
+            "pinyin": "nà jǐ jiā chāoshì mài de dōngxī dōu chàbùduō.",
+            "english": "The things sold in those supermarkets are about the same.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我们国家的夏天和这里差不多。",
+            "traditional": "我們國家的夏天和這裡差不多。",
+            "pinyin": "wǒmen guójiā de xiàtiān hé zhèlǐ chàbùduō.",
+            "english": "The summer in our country is about the same as here.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我的功课写得差不多了。",
+            "traditional": "我的功課寫得差不多了。",
+            "pinyin": "wǒ de gōngkè xiě de chàbùduō le.",
+            "english": "My homework is almost done.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我的旅行计划得差不多了,你看一看吧!",
+            "traditional": "我的旅行計畫得差不多了,你看一看吧!",
+            "pinyin": "wǒ de lǚxíng jìhuà de chàbùduō le, nǐ kàn yī kàn ba!",
+            "english": "My travel plan is almost done, take a look!",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "找工作的事准备得差不多了。",
+            "traditional": "找工作的事準備得差不多了。",
+            "pinyin": "zhǎo gōngzuò de shì zhǔnbèi de chàbùduō le.",
+            "english": "The job search preparation is almost done.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "从这里到捷运站,差不多(走)十分钟。",
+            "traditional": "從這裡到捷運站,差不多(走)十分鐘。",
+            "pinyin": "cóng zhèlǐ dào jiéyùn zhàn, chàbùduō (zǒu) shí fēnzhōng.",
+            "english": "It's about a ten-minute walk from here to the MRT station.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "哥哥和弟弟差不多高。",
+            "traditional": "哥哥和弟弟差不多高。",
+            "pinyin": "gēgē hé dìdì chàbùduō gāo.",
+            "english": "The older brother and younger brother are about the same height.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我差不多学了四个月的中文了。",
+            "traditional": "我差不多學了四個月的中文了。",
+            "pinyin": "wǒ chàbùduō xué le sì gè yuè de zhōngwén le.",
+            "english": "I've been learning Chinese for about four months.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "从学校到捷运站差不多得走多久?",
+            "traditional": "從學校到捷運站差不多得走多久?",
+            "pinyin": "cóng xuéxiào dào jiéyùn zhàn chàbùduō děi zǒu duōjiǔ?",
+            "english": "How long does it take to walk from the school to the MRT station?",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "你的考试准备得差不多了吗?",
+            "traditional": "你的考試準備得差不多了嗎?",
+            "pinyin": "nǐ de kǎoshì zhǔnbèi de chàbùduō le ma?",
+            "english": "Is your exam preparation almost done?",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "这两个房间的房租是不是差不多?",
+            "traditional": "這兩個房間的房租是不是差不多?",
+            "pinyin": "zhè liǎng gè fángjiān de fángzū shì bù shì chàbùduō?",
+            "english": "Are the rents for these two rooms about the same?",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我在高中学过中文。",
+            "traditional": "我在高中學過中文。",
+            "pinyin": "wǒ zài gāozhōng xué guò zhōngwén.",
+            "english": "I studied Chinese in high school.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我去过那个语言中心。",
+            "traditional": "我去過那個語言中心。",
+            "pinyin": "wǒ qù guò nàgè yǔyán zhōngxīn.",
+            "english": "I have been to that language center.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我教过他两年西班牙文。",
+            "traditional": "我教過他兩年西班牙文。",
+            "pinyin": "wǒ jiào guò tā liǎng nián xībānyá wén.",
+            "english": "I taught him Spanish for two years.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我以前没学过中文。",
+            "traditional": "我以前沒學過中文。",
+            "pinyin": "wǒ yǐqián méi xué guò zhōngwén.",
+            "english": "I haven't studied Chinese before.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我没去过法国。",
+            "traditional": "我沒去過法國。",
+            "pinyin": "wǒ méi qù guò fǎguó.",
+            "english": "I haven't been to France.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我没买过那家的面包。",
+            "traditional": "我沒買過那家的麵包。",
+            "pinyin": "wǒ méi mǎi guò nà jiā de miànbāo.",
+            "english": "I haven't bought bread from that store.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "他去过日本没有?",
+            "traditional": "他去過日本沒有?",
+            "pinyin": "tā qù guò rìběn méiyǒu?",
+            "english": "Has he been to Japan?",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "王老师的课,你上过吗?",
+            "traditional": "王老師的課,你上過嗎?",
+            "pinyin": "wáng lǎoshī de kè, nǐ shàng guò ma?",
+            "english": "Have you taken Professor Wang's class?",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是看过那本书?有意思吗?",
+            "traditional": "你是不是看過那本書?有意思嗎?",
+            "pinyin": "nǐ shì bù shì kàn guò nà běn shū? yǒu yìsi ma?",
+            "english": "Have you read that book? Is it interesting?",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "法国,我才去过一次。",
+            "traditional": "法國,我才去過一次。",
+            "pinyin": "fǎguó, wǒ cái qù guò yīcì.",
+            "english": "I've only been to France once.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "一本书才五十块。真便宜。",
+            "traditional": "一本書才五十塊。真便宜。",
+            "pinyin": "yī běn shū cái wǔshí kuài. zhēn piányí.",
+            "english": "A book is only fifty yuan. Really cheap.",
+            "structure": "才(cái) + quantity",
+            "negation": false
+          },
+          {
+            "simplified": "他才学了半年中文。",
+            "traditional": "他才學了半年中文。",
+            "pinyin": "tā cái xué le bàn nián zhōngwén.",
+            "english": "He has only studied Chinese for half a year.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "你今天才吃了一个面包吗?",
+            "traditional": "你今天才吃了一個麵包嗎?",
+            "pinyin": "nǐ jīntiān cái chī le yīgè miànbāo ma?",
+            "english": "Have you only eaten one piece of bread today?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他是不是才学了两个星期的中文?",
+            "traditional": "他是不是才學了兩個星期的中文?",
+            "pinyin": "tā shì bù shì cái xué le liǎng gè xīngqí de zhōngwén?",
+            "english": "Has he only been studying Chinese for two weeks?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "台北捷运,你才坐过一次吗?",
+            "traditional": "台北捷運,你才坐過一次嗎?",
+            "pinyin": "táiběi jiéyùn, nǐ cái zuò guò yīcì ma?",
+            "english": "Have you only taken the Taipei MRT once?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他的电话,我想起来了。",
+            "traditional": "他的電話,我想起來了。",
+            "pinyin": "tā de diànhuà, wǒ xiǎng qǐlái le.",
+            "english": "I remembered his phone number.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "那位小姐姓张,我想起来了。",
+            "traditional": "那位小姐姓張,我想起來了。",
+            "pinyin": "nà wèi xiǎojiě xìng zhāng, wǒ xiǎng qǐlái le.",
+            "english": "I remember that lady's surname is Zhang.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "回到学校以后,以前的事我都想起来了。",
+            "traditional": "回到學校以後,以前的事我都想起來了。",
+            "pinyin": "huí dào xuéxiào yǐhòu, yǐqián de shì wǒ dōu xiǎng qǐlái le.",
+            "english": "After returning to school, I remembered everything from before.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "他姓张,早上见面的时候我怎么没想起来。",
+            "traditional": "他姓張,早上見面的時候我怎麼沒想起來。",
+            "pinyin": "tā xìng zhāng, zǎoshang jiànmiàn de shíhòu wǒ zěnme méi xiǎng qǐlái.",
+            "english": "His surname is Zhang, how did I not remember that when we met in the morning?",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "他是谁,我还没想起来。",
+            "traditional": "他是誰,我還沒想起來。",
+            "pinyin": "tā shì shéi, wǒ hái méi xiǎng qǐlái.",
+            "english": "Who is he, I haven't remembered yet.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "机车在哪里,他一直没想起来。",
+            "traditional": "機車在哪裡,他一直沒想起來。",
+            "pinyin": "jīchē zài nǎlǐ, tā yīzhí méi xiǎng qǐlái.",
+            "english": "Where is the scooter, he hasn't remembered yet.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "我们见过面。你想起来了吗?",
+            "traditional": "我們見過面。你想起來了嗎?",
+            "pinyin": "wǒmen jiànguò miàn. nǐ xiǎng qǐlái le ma?",
+            "english": "We have met before. Do you remember?",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "他叫什么名字?你是不是想起来了?",
+            "traditional": "他叫什麼名字?你是不是想起來了?",
+            "pinyin": "tā jiào shénme míngzì? nǐ shì bù shì xiǎng qǐlái le?",
+            "english": "What is his name? Did you remember?",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "你的东西在哪里,想起来了没有?",
+            "traditional": "你的東西在哪裡,想起來了沒有?",
+            "pinyin": "nǐ de dōngxī zài nǎlǐ, xiǎng qǐlái le méiyǒu?",
+            "english": "Where are your things, did you remember?",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "你现在才来,大家等你很久了。",
+            "traditional": "你現在才來,大家等你很久了。",
+            "pinyin": "nǐ xiànzài cái lái, dàjiā děng nǐ hěn jiǔ le.",
+            "english": "You are just arriving now, everyone has been waiting for you for a long time.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他是昨天才到台北的,所以睡得不好。",
+            "traditional": "他是昨天才到台北的,所以睡得不好。",
+            "pinyin": "tā shì zuótiān cái dào táiběi de, suǒyǐ shuì de bù hǎo.",
+            "english": "He only arrived in Taipei yesterday, so he didn't sleep well.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我等了十分钟,捷运才来。",
+            "traditional": "我等了十分鐘,捷運才來。",
+            "pinyin": "wǒ děng le shí fēnzhōng, jiéyùn cái lái.",
+            "english": "I waited for ten minutes, and then the MRT arrived.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我跟你一起住了十年了,我不是现在才了解你的。",
+            "traditional": "我跟你一起住了十年了,我不是現在才了解你的。",
+            "pinyin": "wǒ gēn nǐ yīqǐ zhù le shí nián le, wǒ bù shì xiànzài cái liǎojiě nǐ de.",
+            "english": "I've been living with you for ten years, I didn't just start understanding you now.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他不是今天才告诉老板他不能来上班的。",
+            "traditional": "他不是今天才告訴老闆他不能來上班的。",
+            "pinyin": "tā bù shì jīntiān cái gàosù lǎobǎn tā bùnéng lái shàngbān de.",
+            "english": "He didn't just tell the boss today that he can't come to work.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我们不是今天才认识的,是三年前就认识的。",
+            "traditional": "我們不是今天才認識的,是三年前就認識的。",
+            "pinyin": "wǒmen bù shì jīntiān cái rènshì de, shì sān nián qián jiù rènshì de.",
+            "english": "We didn't just meet today, we met three years ago.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "王先生这个月才来上班的吗?",
+            "traditional": "王先生這個月才來上班的嗎?",
+            "pinyin": "wáng xiānshēng zhège yuè cái lái shàngbān de ma?",
+            "english": "Did Mr. Wang just start working this month?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是昨天晚上十点才打电话给他的?",
+            "traditional": "你是不是昨天晚上十點才打電話給他的?",
+            "pinyin": "nǐ shì bù shì zuótiān wǎnshàng shí diǎn cái dǎ diànhuà gěi tā de?",
+            "english": "Did you just call him at ten o'clock last night?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "你什么时候才可以跟我去看电影?",
+            "traditional": "你什麼時候才可以跟我去看電影?",
+            "pinyin": "nǐ shénme shíhòu cái kěyǐ gēn wǒ qù kàn diànyǐng?",
+            "english": "When will you be able to go to the movies with me?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "今天学的汉字,我还得练习练习。",
+            "traditional": "今天學的漢字,我還得練習練習。",
+            "pinyin": "jīntiān xué de hànzì, wǒ hái děi liànxí liànxí.",
+            "english": "I still need to practice the Chinese characters we learned today.",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "你有空的时候,应该去旅行。多认识认识一些台湾朋友。",
+            "traditional": "你有空的時候,應該去旅行。多認識認識一些台灣朋友。",
+            "pinyin": "nǐ yǒu kòng de shíhòu, yīnggāi qù lǚxíng. duō rènshì rènshì yīxiē táiwān péngyǒu.",
+            "english": "When you have time, you should travel. Get to know some Taiwanese friends.",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "我想了解了解你是怎么学中文的,为什么说得这么流利。",
+            "traditional": "我想了解了解你是怎麼學中文的,為什麼說得這麼流利。",
+            "pinyin": "wǒ xiǎng liǎojiě liǎojiě nǐ shì zěnme xué zhōngwén de, wèishéme shuō de zhème liúlì.",
+            "english": "I want to know how you learned Chinese and why you speak so fluently.",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "下星期要考试,你怎么不准备准备呢?",
+            "traditional": "下星期要考試,你怎麼不準備準備呢?",
+            "pinyin": "xià xīngqí yào kǎoshì, nǐ zěnme bù zhǔnbèi zhǔnbèi ne?",
+            "english": "There's a test next week, why aren't you preparing?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "你不练习练习写字,听写怎么考得好?",
+            "traditional": "你不練習練習寫字,聽寫怎麼考得好?",
+            "pinyin": "nǐ bù liànxí liànxí xiězì, tīngxiě zěnme kǎo de hǎo?",
+            "english": "If you don't practice writing, how will you do well in dictation?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "我们不参观参观,怎么知道这个学校好不好?",
+            "traditional": "我們不參觀參觀,怎麼知道這個學校好不好?",
+            "pinyin": "wǒmen bù cānguān cānguān, zěnme zhīdào zhège xuéxiào hǎo bù hǎo?",
+            "english": "If we don't visit, how will we know if this school is good?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "我是妳男朋友,妳是不是应该多关心关心我?",
+            "traditional": "我是妳男朋友,妳是不是應該多關心關心我?",
+            "pinyin": "wǒ shì nǎi nán péngyǒu, nǎi shì bù shì yīnggāi duō guānxīn guānxīn wǒ?",
+            "english": "I am your boyfriend, shouldn't you care about me more?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "这个周末,你要不要在家休息休息?",
+            "traditional": "這個週末,你要不要在家休息休息?",
+            "pinyin": "zhège zhōumò, nǐ yào bù yào zài jiā xiūxí xiūxí?",
+            "english": "Do you want to stay at home and rest this weekend?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "我有什么机会可以认识认识新朋友?",
+            "traditional": "我有什麼機會可以認識認識新朋友?",
+            "pinyin": "wǒ yǒu shé me jīhuì kěyǐ rènshì rènshì xīn péngyǒu?",
+            "english": "What opportunities do I have to meet new friends?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          }
+        ],
+        "Dialogue 2": [
+          {
+            "simplified": "我们开始学中文的时间差不多。",
+            "traditional": "我們開始學中文的時間差不多。",
+            "pinyin": "wǒmen kāishǐ xué zhōngwén de shíjiān chàbùduō.",
+            "english": "The time we started learning Chinese is about the same.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "那几家超市卖的东西都差不多。",
+            "traditional": "那幾家超市賣的東西都差不多。",
+            "pinyin": "nà jǐ jiā chāoshì mài de dōngxī dōu chàbùduō.",
+            "english": "The things sold in those supermarkets are about the same.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我们国家的夏天和这里差不多。",
+            "traditional": "我們國家的夏天和這裡差不多。",
+            "pinyin": "wǒmen guójiā de xiàtiān hé zhèlǐ chàbùduō.",
+            "english": "The summer in our country is about the same as here.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我的功课写得差不多了。",
+            "traditional": "我的功課寫得差不多了。",
+            "pinyin": "wǒ de gōngkè xiě de chàbùduō le.",
+            "english": "My homework is almost done.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我的旅行计划得差不多了,你看一看吧!",
+            "traditional": "我的旅行計畫得差不多了,你看一看吧!",
+            "pinyin": "wǒ de lǚxíng jìhuà de chàbùduō le, nǐ kàn yī kàn ba!",
+            "english": "My travel plan is almost done, take a look!",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "找工作的事准备得差不多了。",
+            "traditional": "找工作的事準備得差不多了。",
+            "pinyin": "zhǎo gōngzuò de shì zhǔnbèi de chàbùduō le.",
+            "english": "The job search preparation is almost done.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "从这里到捷运站,差不多(走)十分钟。",
+            "traditional": "從這裡到捷運站,差不多(走)十分鐘。",
+            "pinyin": "cóng zhèlǐ dào jiéyùn zhàn, chàbùduō (zǒu) shí fēnzhōng.",
+            "english": "It's about a ten-minute walk from here to the MRT station.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "哥哥和弟弟差不多高。",
+            "traditional": "哥哥和弟弟差不多高。",
+            "pinyin": "gēgē hé dìdì chàbùduō gāo.",
+            "english": "The older brother and younger brother are about the same height.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我差不多学了四个月的中文了。",
+            "traditional": "我差不多學了四個月的中文了。",
+            "pinyin": "wǒ chàbùduō xué le sì gè yuè de zhōngwén le.",
+            "english": "I've been learning Chinese for about four months.",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "从学校到捷运站差不多得走多久?",
+            "traditional": "從學校到捷運站差不多得走多久?",
+            "pinyin": "cóng xuéxiào dào jiéyùn zhàn chàbùduō děi zǒu duōjiǔ?",
+            "english": "How long does it take to walk from the school to the MRT station?",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "你的考试准备得差不多了吗?",
+            "traditional": "你的考試準備得差不多了嗎?",
+            "pinyin": "nǐ de kǎoshì zhǔnbèi de chàbùduō le ma?",
+            "english": "Is your exam preparation almost done?",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "这两个房间的房租是不是差不多?",
+            "traditional": "這兩個房間的房租是不是差不多?",
+            "pinyin": "zhè liǎng gè fángjiān de fángzū shì bù shì chàbùduō?",
+            "english": "Are the rents for these two rooms about the same?",
+            "structure": "差不多(chàbùduō)",
+            "negation": false
+          },
+          {
+            "simplified": "我在高中学过中文。",
+            "traditional": "我在高中學過中文。",
+            "pinyin": "wǒ zài gāozhōng xué guò zhōngwén.",
+            "english": "I studied Chinese in high school.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我去过那个语言中心。",
+            "traditional": "我去過那個語言中心。",
+            "pinyin": "wǒ qù guò nàgè yǔyán zhōngxīn.",
+            "english": "I have been to that language center.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我教过他两年西班牙文。",
+            "traditional": "我教過他兩年西班牙文。",
+            "pinyin": "wǒ jiào guò tā liǎng nián xībānyá wén.",
+            "english": "I taught him Spanish for two years.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我以前没学过中文。",
+            "traditional": "我以前沒學過中文。",
+            "pinyin": "wǒ yǐqián méi xué guò zhōngwén.",
+            "english": "I haven't studied Chinese before.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我没去过法国。",
+            "traditional": "我沒去過法國。",
+            "pinyin": "wǒ méi qù guò fǎguó.",
+            "english": "I haven't been to France.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "我没买过那家的面包。",
+            "traditional": "我沒買過那家的麵包。",
+            "pinyin": "wǒ méi mǎi guò nà jiā de miànbāo.",
+            "english": "I haven't bought bread from that store.",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "他去过日本没有?",
+            "traditional": "他去過日本沒有?",
+            "pinyin": "tā qù guò rìběn méiyǒu?",
+            "english": "Has he been to Japan?",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "王老师的课,你上过吗?",
+            "traditional": "王老師的課,你上過嗎?",
+            "pinyin": "wáng lǎoshī de kè, nǐ shàng guò ma?",
+            "english": "Have you taken Professor Wang's class?",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是看过那本书?有意思吗?",
+            "traditional": "你是不是看過那本書?有意思嗎?",
+            "pinyin": "nǐ shì bù shì kàn guò nà běn shū? yǒu yìsi ma?",
+            "english": "Have you read that book? Is it interesting?",
+            "structure": "过(guò)",
+            "negation": false
+          },
+          {
+            "simplified": "法国,我才去过一次。",
+            "traditional": "法國,我才去過一次。",
+            "pinyin": "fǎguó, wǒ cái qù guò yīcì.",
+            "english": "I've only been to France once.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "一本书才五十块。真便宜。",
+            "traditional": "一本書才五十塊。真便宜。",
+            "pinyin": "yī běn shū cái wǔshí kuài. zhēn piányí.",
+            "english": "A book is only fifty yuan. Really cheap.",
+            "structure": "才(cái) + quantity",
+            "negation": false
+          },
+          {
+            "simplified": "他才学了半年中文。",
+            "traditional": "他才學了半年中文。",
+            "pinyin": "tā cái xué le bàn nián zhōngwén.",
+            "english": "He has only studied Chinese for half a year.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "你今天才吃了一个面包吗?",
+            "traditional": "你今天才吃了一個麵包嗎?",
+            "pinyin": "nǐ jīntiān cái chī le yīgè miànbāo ma?",
+            "english": "Have you only eaten one piece of bread today?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他是不是才学了两个星期的中文?",
+            "traditional": "他是不是才學了兩個星期的中文?",
+            "pinyin": "tā shì bù shì cái xué le liǎng gè xīngqí de zhōngwén?",
+            "english": "Has he only been studying Chinese for two weeks?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "台北捷运,你才坐过一次吗?",
+            "traditional": "台北捷運,你才坐過一次嗎?",
+            "pinyin": "táiběi jiéyùn, nǐ cái zuò guò yīcì ma?",
+            "english": "Have you only taken the Taipei MRT once?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他的电话,我想起来了。",
+            "traditional": "他的電話,我想起來了。",
+            "pinyin": "tā de diànhuà, wǒ xiǎng qǐlái le.",
+            "english": "I remembered his phone number.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "那位小姐姓张,我想起来了。",
+            "traditional": "那位小姐姓張,我想起來了。",
+            "pinyin": "nà wèi xiǎojiě xìng zhāng, wǒ xiǎng qǐlái le.",
+            "english": "I remember that lady's surname is Zhang.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "回到学校以后,以前的事我都想起来了。",
+            "traditional": "回到學校以後,以前的事我都想起來了。",
+            "pinyin": "huí dào xuéxiào yǐhòu, yǐqián de shì wǒ dōu xiǎng qǐlái le.",
+            "english": "After returning to school, I remembered everything from before.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "他姓张,早上见面的时候我怎么没想起来。",
+            "traditional": "他姓張,早上見面的時候我怎麼沒想起來。",
+            "pinyin": "tā xìng zhāng, zǎoshang jiànmiàn de shíhòu wǒ zěnme méi xiǎng qǐlái.",
+            "english": "His surname is Zhang, how did I not remember that when we met in the morning?",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "他是谁,我还没想起来。",
+            "traditional": "他是誰,我還沒想起來。",
+            "pinyin": "tā shì shéi, wǒ hái méi xiǎng qǐlái.",
+            "english": "Who is he, I haven't remembered yet.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "机车在哪里,他一直没想起来。",
+            "traditional": "機車在哪裡,他一直沒想起來。",
+            "pinyin": "jīchē zài nǎlǐ, tā yīzhí méi xiǎng qǐlái.",
+            "english": "Where is the scooter, he hasn't remembered yet.",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "我们见过面。你想起来了吗?",
+            "traditional": "我們見過面。你想起來了嗎?",
+            "pinyin": "wǒmen jiànguò miàn. nǐ xiǎng qǐlái le ma?",
+            "english": "We have met before. Do you remember?",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "他叫什么名字?你是不是想起来了?",
+            "traditional": "他叫什麼名字?你是不是想起來了?",
+            "pinyin": "tā jiào shénme míngzì? nǐ shì bù shì xiǎng qǐlái le?",
+            "english": "What is his name? Did you remember?",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "你的东西在哪里,想起来了没有?",
+            "traditional": "你的東西在哪裡,想起來了沒有?",
+            "pinyin": "nǐ de dōngxī zài nǎlǐ, xiǎng qǐlái le méiyǒu?",
+            "english": "Where are your things, did you remember?",
+            "structure": "想起来(xiǎng qǐlái)",
+            "negation": false
+          },
+          {
+            "simplified": "你现在才来,大家等你很久了。",
+            "traditional": "你現在才來,大家等你很久了。",
+            "pinyin": "nǐ xiànzài cái lái, dàjiā děng nǐ hěn jiǔ le.",
+            "english": "You are just arriving now, everyone has been waiting for you for a long time.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他是昨天才到台北的,所以睡得不好。",
+            "traditional": "他是昨天才到台北的,所以睡得不好。",
+            "pinyin": "tā shì zuótiān cái dào táiběi de, suǒyǐ shuì de bù hǎo.",
+            "english": "He only arrived in Taipei yesterday, so he didn't sleep well.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我等了十分钟,捷运才来。",
+            "traditional": "我等了十分鐘,捷運才來。",
+            "pinyin": "wǒ děng le shí fēnzhōng, jiéyùn cái lái.",
+            "english": "I waited for ten minutes, and then the MRT arrived.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我跟你一起住了十年了,我不是现在才了解你的。",
+            "traditional": "我跟你一起住了十年了,我不是現在才了解你的。",
+            "pinyin": "wǒ gēn nǐ yīqǐ zhù le shí nián le, wǒ bù shì xiànzài cái liǎojiě nǐ de.",
+            "english": "I've been living with you for ten years, I didn't just start understanding you now.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "他不是今天才告诉老板他不能来上班的。",
+            "traditional": "他不是今天才告訴老闆他不能來上班的。",
+            "pinyin": "tā bù shì jīntiān cái gàosù lǎobǎn tā bùnéng lái shàngbān de.",
+            "english": "He didn't just tell the boss today that he can't come to work.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "我们不是今天才认识的,是三年前就认识的。",
+            "traditional": "我們不是今天才認識的,是三年前就認識的。",
+            "pinyin": "wǒmen bù shì jīntiān cái rènshì de, shì sān nián qián jiù rènshì de.",
+            "english": "We didn't just meet today, we met three years ago.",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "王先生这个月才来上班的吗?",
+            "traditional": "王先生這個月才來上班的嗎?",
+            "pinyin": "wáng xiānshēng zhège yuè cái lái shàngbān de ma?",
+            "english": "Did Mr. Wang just start working this month?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是昨天晚上十点才打电话给他的?",
+            "traditional": "你是不是昨天晚上十點才打電話給他的?",
+            "pinyin": "nǐ shì bù shì zuótiān wǎnshàng shí diǎn cái dǎ diànhuà gěi tā de?",
+            "english": "Did you just call him at ten o'clock last night?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "你什么时候才可以跟我去看电影?",
+            "traditional": "你什麼時候才可以跟我去看電影?",
+            "pinyin": "nǐ shénme shíhòu cái kěyǐ gēn wǒ qù kàn diànyǐng?",
+            "english": "When will you be able to go to the movies with me?",
+            "structure": "才(cái) + verb",
+            "negation": false
+          },
+          {
+            "simplified": "今天学的汉字,我还得练习练习。",
+            "traditional": "今天學的漢字,我還得練習練習。",
+            "pinyin": "jīntiān xué de hànzì, wǒ hái děi liànxí liànxí.",
+            "english": "I still need to practice the Chinese characters we learned today.",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "你有空的时候,应该去旅行。多认识认识一些台湾朋友。",
+            "traditional": "你有空的時候,應該去旅行。多認識認識一些台灣朋友。",
+            "pinyin": "nǐ yǒu kòng de shíhòu, yīnggāi qù lǚxíng. duō rènshì rènshì yīxiē táiwān péngyǒu.",
+            "english": "When you have time, you should travel. Get to know some Taiwanese friends.",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "我想了解了解你是怎么学中文的,为什么说得这么流利。",
+            "traditional": "我想了解了解你是怎麼學中文的,為什麼說得這麼流利。",
+            "pinyin": "wǒ xiǎng liǎojiě liǎojiě nǐ shì zěnme xué zhōngwén de, wèishéme shuō de zhème liúlì.",
+            "english": "I want to know how you learned Chinese and why you speak so fluently.",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "下星期要考试,你怎么不准备准备呢?",
+            "traditional": "下星期要考試,你怎麼不準備準備呢?",
+            "pinyin": "xià xīngqí yào kǎoshì, nǐ zěnme bù zhǔnbèi zhǔnbèi ne?",
+            "english": "There's a test next week, why aren't you preparing?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "你不练习练习写字,听写怎么考得好?",
+            "traditional": "你不練習練習寫字,聽寫怎麼考得好?",
+            "pinyin": "nǐ bù liànxí liànxí xiězì, tīngxiě zěnme kǎo de hǎo?",
+            "english": "If you don't practice writing, how will you do well in dictation?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "我们不参观参观,怎么知道这个学校好不好?",
+            "traditional": "我們不參觀參觀,怎麼知道這個學校好不好?",
+            "pinyin": "wǒmen bù cānguān cānguān, zěnme zhīdào zhège xuéxiào hǎo bù hǎo?",
+            "english": "If we don't visit, how will we know if this school is good?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "我是妳男朋友,妳是不是应该多关心关心我?",
+            "traditional": "我是妳男朋友,妳是不是應該多關心關心我?",
+            "pinyin": "wǒ shì nǎi nán péngyǒu, nǎi shì bù shì yīnggāi duō guānxīn guānxīn wǒ?",
+            "english": "I am your boyfriend, shouldn't you care about me more?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "这个周末,你要不要在家休息休息?",
+            "traditional": "這個週末,你要不要在家休息休息?",
+            "pinyin": "zhège zhōumò, nǐ yào bù yào zài jiā xiūxí xiūxí?",
+            "english": "Do you want to stay at home and rest this weekend?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          },
+          {
+            "simplified": "我有什么机会可以认识认识新朋友?",
+            "traditional": "我有什麼機會可以認識認識新朋友?",
+            "pinyin": "wǒ yǒu shé me jīhuì kěyǐ rènshì rènshì xīn péngyǒu?",
+            "english": "What opportunities do I have to meet new friends?",
+            "structure": "ABAB (tentative action)",
+            "negation": false
+          }
+        ]
+      },
+      "Lesson 4" : {
+        "Dialogue 1": [
+          {
+            "simplified": "放假的时候,马安同除了常打篮球,还常踢足球。",
+            "traditional": "放假的時候,馬安同除了常打籃球,還常踢足球。",
+            "pinyin": "fàngjià de shíhòu, mǎ āntóng chúle cháng dǎ lánqiú, hái cháng tī zúqiú.",
+            "english": "During the holidays, Ma Antong not only often plays basketball but also often plays soccer.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "台湾好吃的小吃,除了牛肉面,还有小笼包。",
+            "traditional": "台灣好吃的小吃,除了牛肉麵,還有小籠包。",
+            "pinyin": "táiwān hǎo chī de xiǎochī, chúle niúròu miàn, hái yǒu xiǎolóngbāo.",
+            "english": "Delicious snacks in Taiwan, besides beef noodles, also include xiaolongbao.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "从学校到火车站,除了坐捷运,还可以坐公车。",
+            "traditional": "從學校到火車站,除了坐捷運,還可以坐公車。",
+            "pinyin": "cóng xuéxiào dào huǒchē zhàn, chúle zuò jiéyùn, hái kěyǐ zuò gōngchē.",
+            "english": "From school to the train station, besides taking the MRT, you can also take the bus.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "白如玉除了不喜欢喝茶,她还不喜欢喝咖啡。",
+            "traditional": "白如玉除了不喜歡喝茶,她還不喜歡喝咖啡。",
+            "pinyin": "bái rúyù chúle bù xǐhuān hē chá, tā hái bù xǐhuān hē kāfēi.",
+            "english": "Bai Ruyu, besides not liking to drink tea, also doesn't like to drink coffee.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "马安同生病了,他除了没写作业,还没准备考试。",
+            "traditional": "馬安同生病了,他除了沒寫作業,還沒準備考試。",
+            "pinyin": "mǎ āntóng shēngbìng le, tā chúle méi xiě zuòyè, hái méi zhǔnbèi kǎoshì.",
+            "english": "Ma Antong is sick, besides not doing his homework, he also didn't prepare for the exam.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "陈月美除了不喜欢太辣的菜,还不喜欢太甜的甜点。",
+            "traditional": "陳月美除了不喜歡太辣的菜,還不喜歡太甜的甜點。",
+            "pinyin": "chén yuèměi chúle bù xǐhuān tài là de cài, hái bù xǐhuān tài tián de tiándiǎn.",
+            "english": "Chen Yuemei, besides not liking very spicy food, also doesn't like very sweet desserts.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "你们除了去故宫,还去了哪些地方?",
+            "traditional": "你們除了去故宮,還去了哪些地方?",
+            "pinyin": "nǐmen chúle qù gùgōng, hái qù le nǎxiē dìfāng?",
+            "english": "Besides going to the Palace Museum, where else did you go?",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "我们除了点牛肉面,还要点臭豆腐吗?",
+            "traditional": "我們除了點牛肉麵,還要點臭豆腐嗎?",
+            "pinyin": "wǒmen chúle diǎn niúròu miàn, hái yào diǎn chòu dòufu ma?",
+            "english": "Besides ordering beef noodles, should we also order stinky tofu?",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "除了芒果,他是不是还喜欢吃西瓜?",
+            "traditional": "除了芒果,他是不是還喜歡吃西瓜?",
+            "pinyin": "chúle mángguǒ, tā shì bù shì hái xǐhuān chī xīguā?",
+            "english": "Besides mangoes, does he also like to eat watermelons?",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "按照医生说的,你睡觉以前要吃一包药。",
+            "traditional": "按照醫生說的,你睡覺以前要吃一包藥。",
+            "pinyin": "ànzhào yīshēng shuō de, nǐ shuìjiào yǐqián yào chī yī bāo yào.",
+            "english": "According to the doctor, you need to take a packet of medicine before going to bed.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "我打算按照网络的介绍,自己去花莲玩玩。",
+            "traditional": "我打算按照網路的介紹,自己去花蓮玩玩。",
+            "pinyin": "wǒ dǎsuàn ànzhào wǎngluò de jièshào, zìjǐ qù huālián wán wán.",
+            "english": "I plan to follow the online introduction and visit Hualien by myself.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "按照台湾的法律,刚来台湾的外国学生不可以工作。",
+            "traditional": "按照台灣的法律,剛來台灣的外國學生不可以工作。",
+            "pinyin": "ànzhào táiwān de fǎlǜ, gāng lái táiwān de wàiguó xuéshēng bù kěyǐ gōngzuò.",
+            "english": "According to Taiwanese law, foreign students who have just arrived in Taiwan cannot work.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "马安同没按照老师的建议准备考试。",
+            "traditional": "馬安同沒按照老師的建議準備考試。",
+            "pinyin": "mǎ āntóng méi ànzhào lǎoshī de jiànyì zhǔnbèi kǎoshì.",
+            "english": "Ma Antong didn't prepare for the exam according to the teacher's suggestion.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "田中诚一常常不按照老板说的做事。",
+            "traditional": "田中誠一常常不按照老闆說的做事。",
+            "pinyin": "tiánzhōng chéng yī chángcháng bù ànzhào lǎobǎn shuō de zuò shì.",
+            "english": "Tian Zhong Chengyi often doesn't do things according to what the boss says.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是按照网络上的说明做小笼包?",
+            "traditional": "你是不是按照網路上的說明做小籠包?",
+            "pinyin": "nǐ shì bù shì ànzhào wǎngluò shàng de shuōmíng zuò xiǎolóngbāo?",
+            "english": "Did you make xiaolongbao according to the instructions online?",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是按照老师给你的建议练习说话?",
+            "traditional": "你是不是按照老師給你的建議練習說話?",
+            "pinyin": "nǐ shì bù shì ànzhào lǎoshī gěi nǐ de jiànyì liànxí shuōhuà?",
+            "english": "Did you practice speaking according to the teacher's advice?",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "请你按照我们约的时间在捷运站跟我见面,好吗?",
+            "traditional": "請你按照我們約的時間在捷運站跟我見面,好嗎?",
+            "pinyin": "qǐng nǐ ànzhào wǒmen yuē de shíjiān zài jiéyùn zhàn gēn wǒ jiànmiàn, hǎo ma?",
+            "english": "Please meet me at the MRT station at the time we agreed upon, okay?",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "老师跟学生说,明天要考试。",
+            "traditional": "老師跟學生說,明天要考試。",
+            "pinyin": "lǎoshī gēn xuéshēng shuō, míngtiān yào kǎoshì.",
+            "english": "The teacher told the students that there will be an exam tomorrow.",
+            "structure": "跟(gēn)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "他刚跟田中说明了他们国家的文化。",
+            "traditional": "他剛跟田中說明了他們國家的文化。",
+            "pinyin": "tā gāng gēn tiánzhōng shuōmíng le tāmen guójiā de wénhuà.",
+            "english": "He just explained their country's culture to Tian Zhong.",
+            "structure": "跟(gēn)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "语言中心主任跟高美玲介绍工作环境。",
+            "traditional": "語言中心主任跟高美玲介紹工作環境。",
+            "pinyin": "yǔyán zhōngxīn zhǔrèn gēn gāo měilíng jièshào gōngzuò huánjìng.",
+            "english": "The director of the language center introduced the work environment to Gao Meiling.",
+            "structure": "跟(gēn)…介绍(jièshào)",
+            "negation": false
+          },
+          {
+            "simplified": "田中诚一昨天跟马安同一起踢足球。",
+            "traditional": "田中誠一昨天跟馬安同一起踢足球。",
+            "pinyin": "tiánzhōng chéng yī zuótiān gēn mǎ āntóng yīqǐ tī zúqiú.",
+            "english": "Tian Zhong Chengyi played soccer with Ma Antong yesterday.",
+            "structure": "跟(gēn)…一起(yīqǐ)",
+            "negation": false
+          },
+          {
+            "simplified": "我是跟朋友一起来的。",
+            "traditional": "我是跟朋友一起來的。",
+            "pinyin": "wǒ shì gēn péngyǒu yīqǐ lái de.",
+            "english": "I came with my friend.",
+            "structure": "跟(gēn)…一起(yīqǐ)",
+            "negation": false
+          },
+          {
+            "simplified": "这个周末,我想跟朋友去台南玩。",
+            "traditional": "這個週末,我想跟朋友去台南玩。",
+            "pinyin": "zhège zhōumò, wǒ xiǎng gēn péngyǒu qù táinán wán.",
+            "english": "This weekend, I want to go to Tainan with my friends.",
+            "structure": "跟(gēn)…一起(yīqǐ)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同想跟王老师学写书法。",
+            "traditional": "馬安同想跟王老師學寫書法。",
+            "pinyin": "mǎ āntóng xiǎng gēn wáng lǎoshī xué xiě shūfǎ.",
+            "english": "Ma Antong wants to learn calligraphy from Teacher Wang.",
+            "structure": "跟(gēn)…学(xué)",
+            "negation": false
+          },
+          {
+            "simplified": "他打算跟面包店老板学做面包。",
+            "traditional": "他打算跟麵包店老闆學做麵包。",
+            "pinyin": "tā dǎsuàn gēn miànbāo diàn lǎobǎn xué zuò miànbāo.",
+            "english": "He plans to learn to make bread from the bakery owner.",
+            "structure": "跟(gēn)…学(xué)",
+            "negation": false
+          },
+          {
+            "simplified": "我想跟朋友买他的那支旧手机。",
+            "traditional": "我想跟朋友買他的那支舊手機。",
+            "pinyin": "wǒ xiǎng gēn péngyǒu mǎi tā de nà zhī jiù shǒujī.",
+            "english": "I want to buy that old phone from my friend.",
+            "structure": "跟(gēn)…买(mǎi)",
+            "negation": false
+          },
+          {
+            "simplified": "请你不要跟别人说你和我的薪水。",
+            "traditional": "請你不要跟別人說你和我的薪水。",
+            "pinyin": "qǐng nǐ bùyào gēn biérén shuō nǐ hé wǒ de xīnshuǐ.",
+            "english": "Please don't tell others about your and my salary.",
+            "structure": "跟(gēn)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同没跟台湾朋友去看电脑展。",
+            "traditional": "馬安同沒跟台灣朋友去看電腦展。",
+            "pinyin": "mǎ āntóng méi gēn táiwān péngyǒu qù kàn diànnǎo zhǎn.",
+            "english": "Ma Antong didn't go to the computer exhibition with his Taiwanese friends.",
+            "structure": "跟(gēn)…去(qù)",
+            "negation": false
+          },
+          {
+            "simplified": "田中诚一不是跟王老师学西班牙文,是跟马安同学的。",
+            "traditional": "田中誠一不是跟王老師學西班牙文,是跟馬安同學的。",
+            "pinyin": "tiánzhōng chéng yī bù shì gēn wáng lǎoshī xué xībānyá wén, shì gēn mǎ āntóng xué de.",
+            "english": "Tian Zhong Chengyi didn't learn Spanish from Teacher Wang, he learned it from Ma Antong.",
+            "structure": "跟(gēn)…学(xué)",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是跟李教授学书法?",
+            "traditional": "你是不是跟李教授學書法?",
+            "pinyin": "nǐ shì bù shì gēn lǐ jiàoshòu xué shūfǎ?",
+            "english": "Did you learn calligraphy from Professor Li?",
+            "structure": "跟(gēn)…学(xué)",
+            "negation": false
+          },
+          {
+            "simplified": "你跟大家介绍办公室的环境了没有?",
+            "traditional": "你跟大家介紹辦公室的環境了沒有?",
+            "pinyin": "nǐ gēn dàjiā jièshào bàngōngshì de huánjìng le méiyǒu?",
+            "english": "Did you introduce the office environment to everyone?",
+            "structure": "跟(gēn)…介绍(jièshào)",
+            "negation": false
+          },
+          {
+            "simplified": "下个星期,你跟不跟我去爬山?",
+            "traditional": "下個星期,你跟不跟我去爬山?",
+            "pinyin": "xià gè xīngqí, nǐ gēn bù gēn wǒ qù páshān?",
+            "english": "Next week, will you go hiking with me?",
+            "structure": "跟(gēn)…去(qù)",
+            "negation": false
+          },
+          {
+            "simplified": "他给我们建议了台东很多好玩的地方。",
+            "traditional": "他給我們建議了台東很多好玩的地方。",
+            "pinyin": "tā gěi wǒmen jiànyì le táidōng hěnduō hǎowán de dìfāng.",
+            "english": "He suggested many fun places in Taitung to us.",
+            "structure": "给(gěi)…建议(jiànyì)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同昨天给房东打过电话。",
+            "traditional": "馬安同昨天給房東打過電話。",
+            "pinyin": "mǎ āntóng zuótiān gěi fángdōng dǎ guò diànhuà.",
+            "english": "Ma Antong called the landlord yesterday.",
+            "structure": "给(gěi)…打电话(dǎ diànhuà)",
+            "negation": false
+          },
+          {
+            "simplified": "李明华给他介绍了很多台湾朋友。",
+            "traditional": "李明華給他介紹了很多台灣朋友。",
+            "pinyin": "lǐ mínghuá gěi tā jièshào le hěnduō táiwān péngyǒu.",
+            "english": "Li Minghua introduced many Taiwanese friends to him.",
+            "structure": "给(gěi)…介绍(jièshào)",
+            "negation": false
+          },
+          {
+            "simplified": "我想明天给你过生日。",
+            "traditional": "我想明天給你過生日。",
+            "pinyin": "wǒ xiǎng míngtiān gěi nǐ guò shēngrì.",
+            "english": "I want to celebrate your birthday tomorrow.",
+            "structure": "给(gěi)…过(guò) + holiday",
+            "negation": false
+          },
+          {
+            "simplified": "李明华给大家照相。",
+            "traditional": "李明華給大家照相。",
+            "pinyin": "lǐ mínghuá gěi dàjiā zhàoxiàng.",
+            "english": "Li Minghua took photos for everyone.",
+            "structure": "给(gěi)…照相(zhàoxiàng)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同给同学们准备了西班牙咖啡。",
+            "traditional": "馬安同給同學們準備了西班牙咖啡。",
+            "pinyin": "mǎ āntóng gěi tóngxuémen zhǔnbèi le xībānyá kāfēi.",
+            "english": "Ma Antong prepared Spanish coffee for the classmates.",
+            "structure": "给(gěi)…准备(zhǔnbèi)",
+            "negation": false
+          },
+          {
+            "simplified": "我没打电话给他。",
+            "traditional": "我沒打電話給他。",
+            "pinyin": "wǒ méi dǎ diànhuà gěi tā.",
+            "english": "I didn't call him.",
+            "structure": "打电话(gěi)…",
+            "negation": false
+          },
+          {
+            "simplified": "因为她的男朋友不高兴,所以不给她打电话了。",
+            "traditional": "因為她的男朋友不高興,所以不給她打電話了。",
+            "pinyin": "yīnwèi tā de nán péngyǒu bù gāoxìng, suǒyǐ bù gěi tā dǎ diànhuà le.",
+            "english": "Because her boyfriend is unhappy, he stopped calling her.",
+            "structure": "不给(gěi)…打电话(dǎ diànhuà)",
+            "negation": false
+          },
+          {
+            "simplified": "妈妈感冒了,所以没给我们准备早餐。",
+            "traditional": "媽媽感冒了,所以沒給我們準備早餐。",
+            "pinyin": "māma gǎnmào le, suǒyǐ méi gěi wǒmen zhǔnbèi zǎocān.",
+            "english": "Mom caught a cold, so she didn't prepare breakfast for us.",
+            "structure": "没给(gěi)…准备(zhǔnbèi)",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是给他买了吃的东西?",
+            "traditional": "你是不是給他買了吃的東西?",
+            "pinyin": "nǐ shì bù shì gěi tā mǎi le chī de dōngxī?",
+            "english": "Did you buy food for him?",
+            "structure": "给(gěi)…买(mǎi)",
+            "negation": false
+          },
+          {
+            "simplified": "来台湾以后,你给妈妈打过电话没有?",
+            "traditional": "來台灣以後,你給媽媽打過電話沒有?",
+            "pinyin": "lái táiwān yǐhòu, nǐ gěi māma dǎ guò diànhuà méiyǒu?",
+            "english": "After coming to Taiwan, have you called your mom?",
+            "structure": "给(gěi)…打电话(dǎ diànhuà)",
+            "negation": false
+          },
+          {
+            "simplified": "妳可不可以给我介绍一个打工的机会?",
+            "traditional": "妳可不可以給我介紹一個打工的機會?",
+            "pinyin": "nǐ kě bù kěyǐ gěi wǒ jièshào yīgè dǎgōng de jīhuì?",
+            "english": "Can you introduce a part-time job opportunity to me?",
+            "structure": "给(gěi)…介绍(jièshào)",
+            "negation": false
+          },
+          {
+            "simplified": "陈主任对马安同说明了办公室的工作环境。",
+            "traditional": "陳主任對馬安同說明了辦公室的工作環境。",
+            "pinyin": "chén zhǔrèn duì mǎ āntóng shuōmíng le bàngōngshì de gōngzuò huánjìng.",
+            "english": "Director Chen explained the office work environment to Ma Antong.",
+            "structure": "对(duì)…说明(shuōmíng)",
+            "negation": false
+          },
+          {
+            "simplified": "李明华对王开文说:对不起,我不知道你是美国人。",
+            "traditional": "李明華對王開文說:對不起,我不知道你是美國人。",
+            "pinyin": "lǐ mínghuá duì wáng kāiwén shuō: duìbùqǐ, wǒ bù zhīdào nǐ shì měiguó rén.",
+            "english": "Li Minghua said to Wang Kaiwen: Sorry, I didn't know you were American.",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "他一看见我,就对我笑。",
+            "traditional": "他一看見我,就對我笑。",
+            "pinyin": "tā yī kànjiàn wǒ, jiù duì wǒ xiào.",
+            "english": "As soon as he saw me, he smiled at me.",
+            "structure": "对(duì)…笑(xiào)",
+            "negation": false
+          },
+          {
+            "simplified": "他对台北的交通情况很了解。",
+            "traditional": "他對台北的交通情況很了解。",
+            "pinyin": "tā duì táiběi de jiāotōng qíngkuàng hěn liǎojiě.",
+            "english": "He is very familiar with Taipei's traffic situation.",
+            "structure": "对(duì)…了解(liǎojiě)",
+            "negation": false
+          },
+          {
+            "simplified": "王主任对老师很客气。",
+            "traditional": "王主任對老師很客氣。",
+            "pinyin": "wáng zhǔrèn duì lǎoshī hěn kèqì.",
+            "english": "Director Wang is very polite to the teachers.",
+            "structure": "对(duì)…客气(kèqì)",
+            "negation": false
+          },
+          {
+            "simplified": "张先生对这个事很关心。",
+            "traditional": "張先生對這個事很關心。",
+            "pinyin": "zhāng xiānshēng duì zhège shì hěn guānxīn.",
+            "english": "Mr. Zhang is very concerned about this matter.",
+            "structure": "对(duì)…关心(guānxīn)",
+            "negation": false
+          },
+          {
+            "simplified": "你别对他说我找工作的事。",
+            "traditional": "你別對他說我找工作的事。",
+            "pinyin": "nǐ bié duì tā shuō wǒ zhǎo gōngzuò de shì.",
+            "english": "Don't tell him about my job search.",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同没对陈月美说“对不起”。",
+            "traditional": "馬安同沒對陳月美說“對不起”。",
+            "pinyin": "mǎ āntóng méi duì chén yuèměi shuō “duìbùqǐ”.",
+            "english": "Ma Antong didn't say 'sorry' to Chen Yuemei.",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "黄主任没对我说明钟点费的事。",
+            "traditional": "黃主任沒對我說明鐘點費的事。",
+            "pinyin": "huáng zhǔrèn méi duì wǒ shuōmíng zhōngdiǎn fèi de shì.",
+            "english": "Director Huang didn't explain the hourly fee to me.",
+            "structure": "对(duì)…说明(shuōmíng)",
+            "negation": false
+          },
+          {
+            "simplified": "医生对你说了什么?",
+            "traditional": "醫生對你說了什麼?",
+            "pinyin": "yīshēng duì nǐ shuō le shénme?",
+            "english": "What did the doctor say to you?",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是对白如玉说了你要去看电脑展?",
+            "traditional": "妳是不是對白如玉說了妳要去看電腦展?",
+            "pinyin": "nǐ shì bù shì duì bái rúyù shuō le nǐ yào qù kàn diànnǎo zhǎn?",
+            "english": "Did you tell Bai Ruyu that you are going to the computer exhibition?",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "你的房东对你好不好?",
+            "traditional": "你的房東對你好不好?",
+            "pinyin": "nǐ de fángdōng duì nǐ hǎo bù hǎo?",
+            "english": "Is your landlord nice to you?",
+            "structure": "对(duì)…好(hǎo)",
+            "negation": false
+          }
+        ],
+        "Dialogue 2": [
+          {
+            "simplified": "放假的时候,马安同除了常打篮球,还常踢足球。",
+            "traditional": "放假的時候,馬安同除了常打籃球,還常踢足球。",
+            "pinyin": "fàngjià de shíhòu, mǎ āntóng chúle cháng dǎ lánqiú, hái cháng tī zúqiú.",
+            "english": "During the holidays, Ma Antong not only often plays basketball but also often plays soccer.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "台湾好吃的小吃,除了牛肉面,还有小笼包。",
+            "traditional": "台灣好吃的小吃,除了牛肉麵,還有小籠包。",
+            "pinyin": "táiwān hǎo chī de xiǎochī, chúle niúròu miàn, hái yǒu xiǎolóngbāo.",
+            "english": "Delicious snacks in Taiwan, besides beef noodles, also include xiaolongbao.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "从学校到火车站,除了坐捷运,还可以坐公车。",
+            "traditional": "從學校到火車站,除了坐捷運,還可以坐公車。",
+            "pinyin": "cóng xuéxiào dào huǒchē zhàn, chúle zuò jiéyùn, hái kěyǐ zuò gōngchē.",
+            "english": "From school to the train station, besides taking the MRT, you can also take the bus.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "白如玉除了不喜欢喝茶,她还不喜欢喝咖啡。",
+            "traditional": "白如玉除了不喜歡喝茶,她還不喜歡喝咖啡。",
+            "pinyin": "bái rúyù chúle bù xǐhuān hē chá, tā hái bù xǐhuān hē kāfēi.",
+            "english": "Bai Ruyu, besides not liking to drink tea, also doesn't like to drink coffee.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "马安同生病了,他除了没写作业,还没准备考试。",
+            "traditional": "馬安同生病了,他除了沒寫作業,還沒準備考試。",
+            "pinyin": "mǎ āntóng shēngbìng le, tā chúle méi xiě zuòyè, hái méi zhǔnbèi kǎoshì.",
+            "english": "Ma Antong is sick, besides not doing his homework, he also didn't prepare for the exam.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "陈月美除了不喜欢太辣的菜,还不喜欢太甜的甜点。",
+            "traditional": "陳月美除了不喜歡太辣的菜,還不喜歡太甜的甜點。",
+            "pinyin": "chén yuèměi chúle bù xǐhuān tài là de cài, hái bù xǐhuān tài tián de tiándiǎn.",
+            "english": "Chen Yuemei, besides not liking very spicy food, also doesn't like very sweet desserts.",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "你们除了去故宫,还去了哪些地方?",
+            "traditional": "你們除了去故宮,還去了哪些地方?",
+            "pinyin": "nǐmen chúle qù gùgōng, hái qù le nǎxiē dìfāng?",
+            "english": "Besides going to the Palace Museum, where else did you go?",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "我们除了点牛肉面,还要点臭豆腐吗?",
+            "traditional": "我們除了點牛肉麵,還要點臭豆腐嗎?",
+            "pinyin": "wǒmen chúle diǎn niúròu miàn, hái yào diǎn chòu dòufu ma?",
+            "english": "Besides ordering beef noodles, should we also order stinky tofu?",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "除了芒果,他是不是还喜欢吃西瓜?",
+            "traditional": "除了芒果,他是不是還喜歡吃西瓜?",
+            "pinyin": "chúle mángguǒ, tā shì bù shì hái xǐhuān chī xīguā?",
+            "english": "Besides mangoes, does he also like to eat watermelons?",
+            "structure": "除了(chúle)…还(hái)…",
+            "negation": false
+          },
+          {
+            "simplified": "按照医生说的,你睡觉以前要吃一包药。",
+            "traditional": "按照醫生說的,你睡覺以前要吃一包藥。",
+            "pinyin": "ànzhào yīshēng shuō de, nǐ shuìjiào yǐqián yào chī yī bāo yào.",
+            "english": "According to the doctor, you need to take a packet of medicine before going to bed.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "我打算按照网络的介绍,自己去花莲玩玩。",
+            "traditional": "我打算按照網路的介紹,自己去花蓮玩玩。",
+            "pinyin": "wǒ dǎsuàn ànzhào wǎngluò de jièshào, zìjǐ qù huālián wán wán.",
+            "english": "I plan to follow the online introduction and visit Hualien by myself.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "按照台湾的法律,刚来台湾的外国学生不可以工作。",
+            "traditional": "按照台灣的法律,剛來台灣的外國學生不可以工作。",
+            "pinyin": "ànzhào táiwān de fǎlǜ, gāng lái táiwān de wàiguó xuéshēng bù kěyǐ gōngzuò.",
+            "english": "According to Taiwanese law, foreign students who have just arrived in Taiwan cannot work.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "马安同没按照老师的建议准备考试。",
+            "traditional": "馬安同沒按照老師的建議準備考試。",
+            "pinyin": "mǎ āntóng méi ànzhào lǎoshī de jiànyì zhǔnbèi kǎoshì.",
+            "english": "Ma Antong didn't prepare for the exam according to the teacher's suggestion.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "田中诚一常常不按照老板说的做事。",
+            "traditional": "田中誠一常常不按照老闆說的做事。",
+            "pinyin": "tiánzhōng chéng yī chángcháng bù ànzhào lǎobǎn shuō de zuò shì.",
+            "english": "Tian Zhong Chengyi often doesn't do things according to what the boss says.",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是按照网络上的说明做小笼包?",
+            "traditional": "你是不是按照網路上的說明做小籠包?",
+            "pinyin": "nǐ shì bù shì ànzhào wǎngluò shàng de shuōmíng zuò xiǎolóngbāo?",
+            "english": "Did you make xiaolongbao according to the instructions online?",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是按照老师给你的建议练习说话?",
+            "traditional": "你是不是按照老師給你的建議練習說話?",
+            "pinyin": "nǐ shì bù shì ànzhào lǎoshī gěi nǐ de jiànyì liànxí shuōhuà?",
+            "english": "Did you practice speaking according to the teacher's advice?",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "请你按照我们约的时间在捷运站跟我见面,好吗?",
+            "traditional": "請你按照我們約的時間在捷運站跟我見面,好嗎?",
+            "pinyin": "qǐng nǐ ànzhào wǒmen yuē de shíjiān zài jiéyùn zhàn gēn wǒ jiànmiàn, hǎo ma?",
+            "english": "Please meet me at the MRT station at the time we agreed upon, okay?",
+            "structure": "按照(ànzhào)…",
+            "negation": false
+          },
+          {
+            "simplified": "老师跟学生说,明天要考试。",
+            "traditional": "老師跟學生說,明天要考試。",
+            "pinyin": "lǎoshī gēn xuéshēng shuō, míngtiān yào kǎoshì.",
+            "english": "The teacher told the students that there will be an exam tomorrow.",
+            "structure": "跟(gēn)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "他刚跟田中说明了他们国家的文化。",
+            "traditional": "他剛跟田中說明了他們國家的文化。",
+            "pinyin": "tā gāng gēn tiánzhōng shuōmíng le tāmen guójiā de wénhuà.",
+            "english": "He just explained their country's culture to Tian Zhong.",
+            "structure": "跟(gēn)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "语言中心主任跟高美玲介绍工作环境。",
+            "traditional": "語言中心主任跟高美玲介紹工作環境。",
+            "pinyin": "yǔyán zhōngxīn zhǔrèn gēn gāo měilíng jièshào gōngzuò huánjìng.",
+            "english": "The director of the language center introduced the work environment to Gao Meiling.",
+            "structure": "跟(gēn)…介绍(jièshào)",
+            "negation": false
+          },
+          {
+            "simplified": "田中诚一昨天跟马安同一起踢足球。",
+            "traditional": "田中誠一昨天跟馬安同一起踢足球。",
+            "pinyin": "tiánzhōng chéng yī zuótiān gēn mǎ āntóng yīqǐ tī zúqiú.",
+            "english": "Tian Zhong Chengyi played soccer with Ma Antong yesterday.",
+            "structure": "跟(gēn)…一起(yīqǐ)",
+            "negation": false
+          },
+          {
+            "simplified": "我是跟朋友一起来的。",
+            "traditional": "我是跟朋友一起來的。",
+            "pinyin": "wǒ shì gēn péngyǒu yīqǐ lái de.",
+            "english": "I came with my friend.",
+            "structure": "跟(gēn)…一起(yīqǐ)",
+            "negation": false
+          },
+          {
+            "simplified": "这个周末,我想跟朋友去台南玩。",
+            "traditional": "這個週末,我想跟朋友去台南玩。",
+            "pinyin": "zhège zhōumò, wǒ xiǎng gēn péngyǒu qù táinán wán.",
+            "english": "This weekend, I want to go to Tainan with my friends.",
+            "structure": "跟(gēn)…一起(yīqǐ)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同想跟王老师学写书法。",
+            "traditional": "馬安同想跟王老師學寫書法。",
+            "pinyin": "mǎ āntóng xiǎng gēn wáng lǎoshī xué xiě shūfǎ.",
+            "english": "Ma Antong wants to learn calligraphy from Teacher Wang.",
+            "structure": "跟(gēn)…学(xué)",
+            "negation": false
+          },
+          {
+            "simplified": "他打算跟面包店老板学做面包。",
+            "traditional": "他打算跟麵包店老闆學做麵包。",
+            "pinyin": "tā dǎsuàn gēn miànbāo diàn lǎobǎn xué zuò miànbāo.",
+            "english": "He plans to learn to make bread from the bakery owner.",
+            "structure": "跟(gēn)…学(xué)",
+            "negation": false
+          },
+          {
+            "simplified": "我想跟朋友买他的那支旧手机。",
+            "traditional": "我想跟朋友買他的那支舊手機。",
+            "pinyin": "wǒ xiǎng gēn péngyǒu mǎi tā de nà zhī jiù shǒujī.",
+            "english": "I want to buy that old phone from my friend.",
+            "structure": "跟(gēn)…买(mǎi)",
+            "negation": false
+          },
+          {
+            "simplified": "请你不要跟别人说你和我的薪水。",
+            "traditional": "請你不要跟別人說你和我的薪水。",
+            "pinyin": "qǐng nǐ bùyào gēn biérén shuō nǐ hé wǒ de xīnshuǐ.",
+            "english": "Please don't tell others about your and my salary.",
+            "structure": "跟(gēn)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同没跟台湾朋友去看电脑展。",
+            "traditional": "馬安同沒跟台灣朋友去看電腦展。",
+            "pinyin": "mǎ āntóng méi gēn táiwān péngyǒu qù kàn diànnǎo zhǎn.",
+            "english": "Ma Antong didn't go to the computer exhibition with his Taiwanese friends.",
+            "structure": "跟(gēn)…去(qù)",
+            "negation": false
+          },
+          {
+            "simplified": "田中诚一不是跟王老师学西班牙文,是跟马安同学的。",
+            "traditional": "田中誠一不是跟王老師學西班牙文,是跟馬安同學的。",
+            "pinyin": "tiánzhōng chéng yī bù shì gēn wáng lǎoshī xué xībānyá wén, shì gēn mǎ āntóng xué de.",
+            "english": "Tian Zhong Chengyi didn't learn Spanish from Teacher Wang, he learned it from Ma Antong.",
+            "structure": "跟(gēn)…学(xué)",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是跟李教授学书法?",
+            "traditional": "你是不是跟李教授學書法?",
+            "pinyin": "nǐ shì bù shì gēn lǐ jiàoshòu xué shūfǎ?",
+            "english": "Did you learn calligraphy from Professor Li?",
+            "structure": "跟(gēn)…学(xué)",
+            "negation": false
+          },
+          {
+            "simplified": "你跟大家介绍办公室的环境了没有?",
+            "traditional": "你跟大家介紹辦公室的環境了沒有?",
+            "pinyin": "nǐ gēn dàjiā jièshào bàngōngshì de huánjìng le méiyǒu?",
+            "english": "Did you introduce the office environment to everyone?",
+            "structure": "跟(gēn)…介绍(jièshào)",
+            "negation": false
+          },
+          {
+            "simplified": "下个星期,你跟不跟我去爬山?",
+            "traditional": "下個星期,你跟不跟我去爬山?",
+            "pinyin": "xià gè xīngqí, nǐ gēn bù gēn wǒ qù páshān?",
+            "english": "Next week, will you go hiking with me?",
+            "structure": "跟(gēn)…去(qù)",
+            "negation": false
+          },
+          {
+            "simplified": "他给我们建议了台东很多好玩的地方。",
+            "traditional": "他給我們建議了台東很多好玩的地方。",
+            "pinyin": "tā gěi wǒmen jiànyì le táidōng hěnduō hǎowán de dìfāng.",
+            "english": "He suggested many fun places in Taitung to us.",
+            "structure": "给(gěi)…建议(jiànyì)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同昨天给房东打过电话。",
+            "traditional": "馬安同昨天給房東打過電話。",
+            "pinyin": "mǎ āntóng zuótiān gěi fángdōng dǎ guò diànhuà.",
+            "english": "Ma Antong called the landlord yesterday.",
+            "structure": "给(gěi)…打电话(dǎ diànhuà)",
+            "negation": false
+          },
+          {
+            "simplified": "李明华给他介绍了很多台湾朋友。",
+            "traditional": "李明華給他介紹了很多台灣朋友。",
+            "pinyin": "lǐ mínghuá gěi tā jièshào le hěnduō táiwān péngyǒu.",
+            "english": "Li Minghua introduced many Taiwanese friends to him.",
+            "structure": "给(gěi)…介绍(jièshào)",
+            "negation": false
+          },
+          {
+            "simplified": "我想明天给你过生日。",
+            "traditional": "我想明天給你過生日。",
+            "pinyin": "wǒ xiǎng míngtiān gěi nǐ guò shēngrì.",
+            "english": "I want to celebrate your birthday tomorrow.",
+            "structure": "给(gěi)…过(guò) + holiday",
+            "negation": false
+          },
+          {
+            "simplified": "李明华给大家照相。",
+            "traditional": "李明華給大家照相。",
+            "pinyin": "lǐ mínghuá gěi dàjiā zhàoxiàng.",
+            "english": "Li Minghua took photos for everyone.",
+            "structure": "给(gěi)…照相(zhàoxiàng)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同给同学们准备了西班牙咖啡。",
+            "traditional": "馬安同給同學們準備了西班牙咖啡。",
+            "pinyin": "mǎ āntóng gěi tóngxuémen zhǔnbèi le xībānyá kāfēi.",
+            "english": "Ma Antong prepared Spanish coffee for the classmates.",
+            "structure": "给(gěi)…准备(zhǔnbèi)",
+            "negation": false
+          },
+          {
+            "simplified": "我没打电话给他。",
+            "traditional": "我沒打電話給他。",
+            "pinyin": "wǒ méi dǎ diànhuà gěi tā.",
+            "english": "I didn't call him.",
+            "structure": "打电话(gěi)…",
+            "negation": false
+          },
+          {
+            "simplified": "因为她的男朋友不高兴,所以不给她打电话了。",
+            "traditional": "因為她的男朋友不高興,所以不給她打電話了。",
+            "pinyin": "yīnwèi tā de nán péngyǒu bù gāoxìng, suǒyǐ bù gěi tā dǎ diànhuà le.",
+            "english": "Because her boyfriend is unhappy, he stopped calling her.",
+            "structure": "不给(gěi)…打电话(dǎ diànhuà)",
+            "negation": false
+          },
+          {
+            "simplified": "妈妈感冒了,所以没给我们准备早餐。",
+            "traditional": "媽媽感冒了,所以沒給我們準備早餐。",
+            "pinyin": "māma gǎnmào le, suǒyǐ méi gěi wǒmen zhǔnbèi zǎocān.",
+            "english": "Mom caught a cold, so she didn't prepare breakfast for us.",
+            "structure": "没给(gěi)…准备(zhǔnbèi)",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是给他买了吃的东西?",
+            "traditional": "你是不是給他買了吃的東西?",
+            "pinyin": "nǐ shì bù shì gěi tā mǎi le chī de dōngxī?",
+            "english": "Did you buy food for him?",
+            "structure": "给(gěi)…买(mǎi)",
+            "negation": false
+          },
+          {
+            "simplified": "来台湾以后,你给妈妈打过电话没有?",
+            "traditional": "來台灣以後,你給媽媽打過電話沒有?",
+            "pinyin": "lái táiwān yǐhòu, nǐ gěi māma dǎ guò diànhuà méiyǒu?",
+            "english": "After coming to Taiwan, have you called your mom?",
+            "structure": "给(gěi)…打电话(dǎ diànhuà)",
+            "negation": false
+          },
+          {
+            "simplified": "妳可不可以给我介绍一个打工的机会?",
+            "traditional": "妳可不可以給我介紹一個打工的機會?",
+            "pinyin": "nǐ kě bù kěyǐ gěi wǒ jièshào yīgè dǎgōng de jīhuì?",
+            "english": "Can you introduce a part-time job opportunity to me?",
+            "structure": "给(gěi)…介绍(jièshào)",
+            "negation": false
+          },
+          {
+            "simplified": "陈主任对马安同说明了办公室的工作环境。",
+            "traditional": "陳主任對馬安同說明了辦公室的工作環境。",
+            "pinyin": "chén zhǔrèn duì mǎ āntóng shuōmíng le bàngōngshì de gōngzuò huánjìng.",
+            "english": "Director Chen explained the office work environment to Ma Antong.",
+            "structure": "对(duì)…说明(shuōmíng)",
+            "negation": false
+          },
+          {
+            "simplified": "李明华对王开文说:对不起,我不知道你是美国人。",
+            "traditional": "李明華對王開文說:對不起,我不知道你是美國人。",
+            "pinyin": "lǐ mínghuá duì wáng kāiwén shuō: duìbùqǐ, wǒ bù zhīdào nǐ shì měiguó rén.",
+            "english": "Li Minghua said to Wang Kaiwen: Sorry, I didn't know you were American.",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "他一看见我,就对我笑。",
+            "traditional": "他一看見我,就對我笑。",
+            "pinyin": "tā yī kànjiàn wǒ, jiù duì wǒ xiào.",
+            "english": "As soon as he saw me, he smiled at me.",
+            "structure": "对(duì)…笑(xiào)",
+            "negation": false
+          },
+          {
+            "simplified": "他对台北的交通情况很了解。",
+            "traditional": "他對台北的交通情況很了解。",
+            "pinyin": "tā duì táiběi de jiāotōng qíngkuàng hěn liǎojiě.",
+            "english": "He is very familiar with Taipei's traffic situation.",
+            "structure": "对(duì)…了解(liǎojiě)",
+            "negation": false
+          },
+          {
+            "simplified": "王主任对老师很客气。",
+            "traditional": "王主任對老師很客氣。",
+            "pinyin": "wáng zhǔrèn duì lǎoshī hěn kèqì.",
+            "english": "Director Wang is very polite to the teachers.",
+            "structure": "对(duì)…客气(kèqì)",
+            "negation": false
+          },
+          {
+            "simplified": "张先生对这个事很关心。",
+            "traditional": "張先生對這個事很關心。",
+            "pinyin": "zhāng xiānshēng duì zhège shì hěn guānxīn.",
+            "english": "Mr. Zhang is very concerned about this matter.",
+            "structure": "对(duì)…关心(guānxīn)",
+            "negation": false
+          },
+          {
+            "simplified": "你别对他说我找工作的事。",
+            "traditional": "你別對他說我找工作的事。",
+            "pinyin": "nǐ bié duì tā shuō wǒ zhǎo gōngzuò de shì.",
+            "english": "Don't tell him about my job search.",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "马安同没对陈月美说“对不起”。",
+            "traditional": "馬安同沒對陳月美說“對不起”。",
+            "pinyin": "mǎ āntóng méi duì chén yuèměi shuō “duìbùqǐ”.",
+            "english": "Ma Antong didn't say 'sorry' to Chen Yuemei.",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "黄主任没对我说明钟点费的事。",
+            "traditional": "黃主任沒對我說明鐘點費的事。",
+            "pinyin": "huáng zhǔrèn méi duì wǒ shuōmíng zhōngdiǎn fèi de shì.",
+            "english": "Director Huang didn't explain the hourly fee to me.",
+            "structure": "对(duì)…说明(shuōmíng)",
+            "negation": false
+          },
+          {
+            "simplified": "医生对你说了什么?",
+            "traditional": "醫生對你說了什麼?",
+            "pinyin": "yīshēng duì nǐ shuō le shénme?",
+            "english": "What did the doctor say to you?",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "你是不是对白如玉说了你要去看电脑展?",
+            "traditional": "妳是不是對白如玉說了妳要去看電腦展?",
+            "pinyin": "nǐ shì bù shì duì bái rúyù shuō le nǐ yào qù kàn diànnǎo zhǎn?",
+            "english": "Did you tell Bai Ruyu that you are going to the computer exhibition?",
+            "structure": "对(duì)…说(shuō)",
+            "negation": false
+          },
+          {
+            "simplified": "你的房东对你好不好?",
+            "traditional": "你的房東對你好不好?",
+            "pinyin": "nǐ de fángdōng duì nǐ hǎo bù hǎo?",
+            "english": "Is your landlord nice to you?",
+            "structure": "对(duì)…好(hǎo)",
+            "negation": false
+          }
+        ]
+      }
+    },
+    "Clemson Section B": {
+      "Lesson 1": {
+        "Dialogue 1": [],
+        "Dialogue 2": []
+      }
+    }
+  }
+  
+  
