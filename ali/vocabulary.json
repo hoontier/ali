@@ -192,6 +192,56 @@
           { "simplified": "顺利", "traditional": "順利", "pinyin": "shùnlì", "english": "smoothly, successfully" },
           { "simplified": "没想到", "traditional": "沒想到", "pinyin": "méixiǎngdào", "english": "didn't expect" }
         ]
+      },
+      "Lesson 5": {
+        "Dialogue 1": [
+          { "simplified": "喜酒", "traditional": "喜酒", "pinyin": "xǐjiǔ", "english": "wedding banquet" },
+          { "simplified": "恭喜", "traditional": "恭喜", "pinyin": "gōngxǐ", "english": "to congratulate" },
+          { "simplified": "新娘", "traditional": "新娘", "pinyin": "xīnniáng", "english": "bride" },
+          { "simplified": "参加", "traditional": "參加", "pinyin": "cānjiā", "english": "to attend/participate" },
+          { "simplified": "婚礼", "traditional": "婚禮", "pinyin": "hūnlǐ", "english": "wedding ceremony" },
+          { "simplified": "西装", "traditional": "西裝", "pinyin": "xīzhuāng", "english": "a (western) suit" },
+          { "simplified": "正式", "traditional": "正式", "pinyin": "zhèngshì", "english": "formal" },
+          { "simplified": "客人", "traditional": "客人", "pinyin": "kèrén", "english": "guest" },
+          { "simplified": "手", "traditional": "手", "pinyin": "shǒu", "english": "hand" },
+          { "simplified": "照相机", "traditional": "照相機", "pinyin": "zhàoxiàngjī", "english": "camera" },
+          { "simplified": "新郎", "traditional": "新郎", "pinyin": "xīnláng", "english": "groom" },
+          { "simplified": "站", "traditional": "站", "pinyin": "zhàn", "english": "to stand" },
+          { "simplified": "白", "traditional": "白", "pinyin": "bái", "english": "white" },
+          { "simplified": "帅", "traditional": "帥", "pinyin": "shuài", "english": "handsome, good looking" },
+          { "simplified": "礼服", "traditional": "禮服", "pinyin": "lǐfú", "english": "formal attire" },
+          { "simplified": "座位", "traditional": "座位", "pinyin": "zuòwèi", "english": "seat" },
+          { "simplified": "看起来", "traditional": "看起來", "pinyin": "kànqǐlái", "english": "to look, it appears to me" }
+        ],
+        "Dialogue 2": [
+          { "simplified": "结婚", "traditional": "結婚", "pinyin": "jiéhūn", "english": "to get married to" },
+          { "simplified": "日子", "traditional": "日子", "pinyin": "rìzi", "english": "day" },
+          { "simplified": "亲戚", "traditional": "親戚", "pinyin": "qīnqi", "english": "relatives" },
+          { "simplified": "热闹", "traditional": "熱鬧", "pinyin": "rènào", "english": "to be boisterous" },
+          { "simplified": "庆祝", "traditional": "慶祝", "pinyin": "qìngzhù", "english": "to celebrate" },
+          { "simplified": "件", "traditional": "件", "pinyin": "jiàn", "english": "measure word for clothing items" },
+          { "simplified": "喜事", "traditional": "喜事", "pinyin": "xǐshì", "english": "a special occasion (i.e. a wedding)" },
+          { "simplified": "请客", "traditional": "請客", "pinyin": "qǐngkè", "english": "to host a banquet" },
+          { "simplified": "红包", "traditional": "紅包", "pinyin": "hóngbāo", "english": "red envelope with cash" },
+          { "simplified": "送", "traditional": "送", "pinyin": "sòng", "english": "to give a gift" },
+          { "simplified": "新人", "traditional": "新人", "pinyin": "xīnrén", "english": "newlyweds" },
+          { "simplified": "喜宴", "traditional": "喜宴", "pinyin": "xǐyàn", "english": "wedding banquet" },
+          { "simplified": "敬酒", "traditional": "敬酒", "pinyin": "jìngjiǔ", "english": "to make a toast" },
+          { "simplified": "大人", "traditional": "大人", "pinyin": "dàrén", "english": "adult" },
+          { "simplified": "小孩", "traditional": "小孩", "pinyin": "xiǎohái", "english": "child, children" },
+          { "simplified": "不得了", "traditional": "不得了", "pinyin": "bùdéliǎo", "english": "very, extremely" },
+          { "simplified": "另外", "traditional": "另外", "pinyin": "lìngwài", "english": "another" },
+          { "simplified": "糖", "traditional": "糖", "pinyin": "táng", "english": "candies" },
+          { "simplified": "离开", "traditional": "離開", "pinyin": "líkāi", "english": "to depart, leave" },
+          { "simplified": "句", "traditional": "句", "pinyin": "jù", "english": "measure word for utterances" },
+          { "simplified": "祝福", "traditional": "祝福", "pinyin": "zhùfú", "english": "to give blessings to" },
+          { "simplified": "话", "traditional": "話", "pinyin": "huà", "english": "utterance" },
+          { "simplified": "一会儿", "traditional": "一會兒", "pinyin": "yīhuìr", "english": "in a moment" },
+          { "simplified": "有说有笑", "traditional": "有說有笑", "pinyin": "yǒu shuō yǒu xiào", "english": "laughing and joking" },
+          { "simplified": "有吃有喝", "traditional": "有吃有喝", "pinyin": "yǒu chī yǒu hē", "english": "an availability of food and drink" },
+          { "simplified": "百年好合", "traditional": "百年好合", "pinyin": "bǎinián hǎohé", "english": "century-long matrimony" },
+          { "simplified": "早生贵子", "traditional": "早生貴子", "pinyin": "zǎoshēng guìzǐ", "english": "may you soon bear a child" }
+        ]
       }
     },
     "Clemson Section B": {
