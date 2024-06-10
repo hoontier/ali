@@ -36,11 +36,11 @@ const WritePopup: React.FC<WritePopupProps> = ({
             <Text style={styles.wordText}>English: {word.english}</Text>
             <Text style={styles.wordText}>Your Answer: {userAnswer}</Text>
           </View>
+          <Button title="Close" onPress={onClose} />
           {!correct && ( // Only show the button if the answer was incorrect
             
             <Button title="I was correct" onPress={onMarkCorrect} />
           )}
-          <Button title="Close" onPress={onClose} />
 
         </View>
       </View>
