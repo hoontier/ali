@@ -242,6 +242,54 @@
           { "simplified": "百年好合", "traditional": "百年好合", "pinyin": "bǎinián hǎohé", "english": "century-long matrimony" },
           { "simplified": "早生贵子", "traditional": "早生貴子", "pinyin": "zǎoshēng guìzǐ", "english": "may you soon bear a child" }
         ]
+      },
+      "Lesson 9": {
+        "Dialogue 1": [
+          { "simplified": "春假", "traditional": "春假", "pinyin": "chūnjià", "english": "spring break" },
+          { "simplified": "好", "traditional": "好", "pinyin": "hǎo", "english": "good" },
+          { "simplified": "到", "traditional": "到", "pinyin": "dào", "english": "as a resultative particle, it indicates a proper completion of an action" },
+          { "simplified": "特色", "traditional": "特色", "pinyin": "tèsè", "english": "unique features, distinctive traits" },
+          { "simplified": "够", "traditional": "夠", "pinyin": "gòu", "english": "enough" },
+          { "simplified": "颜色", "traditional": "顏色", "pinyin": "yánsè", "english": "color" },
+          { "simplified": "庙", "traditional": "廟", "pinyin": "miào", "english": "temple" },
+          { "simplified": "像", "traditional": "像", "pinyin": "xiàng", "english": "similar to" },
+          { "simplified": "教堂", "traditional": "教堂", "pinyin": "jiàotáng", "english": "church, cathedral" },
+          { "simplified": "南部", "traditional": "南部", "pinyin": "nánbù", "english": "southern region" },
+          { "simplified": "潜水", "traditional": "潛水", "pinyin": "qiánshuǐ", "english": "to dive (i.e., snorkel or scuba diving)" },
+          { "simplified": "各", "traditional": "各", "pinyin": "gè", "english": "various" },
+          { "simplified": "鱼", "traditional": "魚", "pinyin": "yú", "english": "fish" },
+          { "simplified": "酸", "traditional": "酸", "pinyin": "suān", "english": "sour, tart" },
+          { "simplified": "柠檬", "traditional": "檸檬", "pinyin": "níngméng", "english": "lemon, lime" },
+          { "simplified": "味道", "traditional": "味道", "pinyin": "wèidào", "english": "taste, flavor" },
+          { "simplified": "泰国", "traditional": "泰國", "pinyin": "tàiguó", "english": "Thailand" },
+          { "simplified": "比起来", "traditional": "比起來", "pinyin": "bǐ qǐlái", "english": "compared to" },
+          { "simplified": "极了", "traditional": "極了", "pinyin": "jíle", "english": "absolutely, extremely" },
+          { "simplified": "忘不了", "traditional": "忘不了", "pinyin": "wàng bùliǎo", "english": "unforgettable" }
+        ],
+        "Dialogue 2": [
+          { "simplified": "乡下", "traditional": "鄉下", "pinyin": "xiāngxià", "english": "countryside" },
+          { "simplified": "气氛", "traditional": "氣氛", "pinyin": "qìfēn", "english": "atmosphere" },
+          { "simplified": "镇", "traditional": "鎮", "pinyin": "zhèn", "english": "rural town" },
+          { "simplified": "不同", "traditional": "不同", "pinyin": "bùtóng", "english": "different" },
+          { "simplified": "现代", "traditional": "現代", "pinyin": "xiàndài", "english": "modern" },
+          { "simplified": "公寓", "traditional": "公寓", "pinyin": "gōngyù", "english": "apartment" },
+          { "simplified": "马路", "traditional": "馬路", "pinyin": "mǎlù", "english": "street" },
+          { "simplified": "宽", "traditional": "寬", "pinyin": "kuān", "english": "wide" },
+          { "simplified": "汽车", "traditional": "汽車", "pinyin": "qìchē", "english": "car" },
+          { "simplified": "建筑", "traditional": "建築", "pinyin": "jiànzhù", "english": "buildings" },
+          { "simplified": "老", "traditional": "老", "pinyin": "lǎo", "english": "old" },
+          { "simplified": "层", "traditional": "層", "pinyin": "céng", "english": "measure word for floors and storeys" },
+          { "simplified": "北部", "traditional": "北部", "pinyin": "běibù", "english": "the north" },
+          { "simplified": "热情", "traditional": "熱情", "pinyin": "rèqíng", "english": "hospitable, welcoming, warmhearted" },
+          { "simplified": "挤", "traditional": "擠", "pinyin": "jǐ", "english": "crowded" },
+          { "simplified": "饮料", "traditional": "飲料", "pinyin": "yǐnliào", "english": "drink, beverage" },
+          { "simplified": "巴黎", "traditional": "巴黎", "pinyin": "Bālí", "english": "Paris" },
+          { "simplified": "高雄市", "traditional": "高雄市", "pinyin": "Gāoxióng Shì", "english": "Kaohsiung City in southern Taiwan" },
+          { "simplified": "中南部", "traditional": "中南部", "pinyin": "zhōngnánbù", "english": "central and southern regions" },
+          { "simplified": "买得起", "traditional": "買得起", "pinyin": "mǎi de qǐ", "english": "afford, affordable" },
+          { "simplified": "百货公司", "traditional": "百貨公司", "pinyin": "bǎihuò gōngsī", "english": "department store" },
+          { "simplified": "越来越", "traditional": "越來越", "pinyin": "yuèláiyuè", "english": "more and more, increasingly" }
+        ]
       }
     },
     "Clemson Section B": {
