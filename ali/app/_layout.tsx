@@ -14,6 +14,7 @@ export default function RootLayout() {
           <Stack.Screen name="ContentSelect" options={{ title: 'Content Selection', headerShown: false}} />
           <Stack.Screen name="List" options={{ title: 'List', headerShown: false}} />
           <Stack.Screen name="FlashcardGame" options={{ title: 'Flashcard Game', headerShown: false}} />
+          <Stack.Screen name="WriteGame" options={{ title: 'Write Game', headerShown: false}} />
         </Stack>
       </View>
     </Provider>

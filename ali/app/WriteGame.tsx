@@ -46,7 +46,7 @@ const WriteGame: React.FC = () => {
   const [popupVisible, setPopupVisible] = useState(false);
   const [popupCorrect, setPopupCorrect] = useState(false);
   const [lastWord, setLastWord] = useState<DataItem | null>(null);
-  const [lastUserAnswer, setLastUserAnswer] = useState(''); // To store the last user answer
+  const [lastUserAnswer, setLastUserAnswer] = useState('');
 
   const selectedSection = useSelector((state: RootState) => state.select.selectedSection);
   const selectedLesson = useSelector((state: RootState) => state.select.selectedLesson);

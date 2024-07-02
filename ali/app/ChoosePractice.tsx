@@ -16,6 +16,11 @@ const ChoosePractice: React.FC = () => {
     <View style={styles.container}>
       <View style={styles.card}>
         <Text style={styles.title}>Choose How to Practice</Text>
+        <Link href="/LearnGame" asChild>
+          <Pressable style={styles.button}>
+            <Text style={styles.buttonText}>Learn</Text>
+          </Pressable>
+        </Link>
         <Link href="/FlashcardGame" asChild>
           <Pressable style={styles.button} onPress={handleFlashcardsPress}>
             <Text style={styles.buttonText}>Flashcards</Text>
