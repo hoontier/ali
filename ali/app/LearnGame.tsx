@@ -1,16 +1,17 @@
 // LearnGame.tsx
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, TextInput, Button, Pressable } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from './features/store';
 import {
   setDeck,
   setGroups,
-  setCurrentCardIndex,
   setUserInput,
-  removeCardFromDeck,
   setShowSettings,
   resetGame,
+  startGame,
+  checkAnswer,
+  setPopupVisible,
 } from './features/learnGameSlice';
 import { shuffleArray } from './utils/shuffleArray';
 import { Link } from 'expo-router';
@@ -29,7 +30,6 @@ type DataItem = {
   structure?: string;
 };
 
-type CardKey = keyof DataItem;
 type Vocabulary = {
   [key: string]: {
     [key: string]: {
@@ -52,19 +52,7 @@ const groupItems = (items: DataItem[]): DataItem[][] => {
 
 const LearnGame: React.FC = () => {
   const dispatch = useDispatch();
-  const { deck, groups, currentCardIndex, userInput, showSettings, removedCards, settings } = useSelector(
-    (state: RootState) => state.learn
-  );
-
-  const [popupVisible, setPopupVisible] = useState(false);
-  const [popupCorrect, setPopupCorrect] = useState(false);
-  const [lastWord, setLastWord] = useState<DataItem | null>(null);
-  const [lastUserAnswer, setLastUserAnswer] = useState('');
-  const [currentGroupIndex, setCurrentGroupIndex] = useState<number>(0);
-  const [currentGroup, setCurrentGroup] = useState<DataItem[]>([]);
-  const [wasIncorrect, setWasIncorrect] = useState<boolean>(false);
-  const [startTime, setStartTime] = useState<number>(0);
-  const [endTime, setEndTime] = useState<number>(0);
+  const { deck, groups, currentCardIndex, currentGroupIndex, userInput, showSettings, settings, popupVisible, popupCorrect, lastWord, lastUserAnswer, endTime, startTime } = useSelector((state: RootState) => state.learn);
 
   const selectedSection = useSelector((state: RootState) => state.select.selectedSection);
   const selectedLesson = useSelector((state: RootState) => state.select.selectedLesson);
@@ -92,65 +80,15 @@ const LearnGame: React.FC = () => {
     if (deck.length > 0) {
       const groupedDeck = groupItems(deck);
       dispatch(setGroups(groupedDeck));
-      console.log('Grouped Deck:', groupedDeck);
-      setCurrentGroup(shuffleArray(groupedDeck[currentGroupIndex]));
-      console.log('Current Group:', groupedDeck[currentGroupIndex]);
     }
-  }, [deck, currentGroupIndex, dispatch]);
-
-  const startGame = () => {
-    setStartTime(Date.now());
-    setEndTime(0);
-    setCurrentGroupIndex(0);
-    dispatch(setCurrentCardIndex(0));
-    setWasIncorrect(false);
-    dispatch(setUserInput(''));
-  };
-
-  const handleNextCard = useCallback(() => {
-    if (currentCardIndex + 1 >= currentGroup.length) {
-      if (wasIncorrect) {
-        console.log('Repeating current group due to incorrect answer.');
-        setCurrentGroup(shuffleArray(groups[currentGroupIndex]));
-        setWasIncorrect(false);
-      } else if (currentGroupIndex + 1 < groups.length) {
-        setCurrentGroupIndex(currentGroupIndex + 1);
-        console.log('Current Group:', groups[currentGroupIndex + 1]);
-        setCurrentGroup(shuffleArray(groups[currentGroupIndex + 1]));
-        dispatch(setCurrentCardIndex(0));
-      } else {
-        setEndTime(Date.now());
-      }
-    } else {
-      dispatch(setCurrentCardIndex(currentCardIndex + 1));
-    }
-    dispatch(setUserInput(''));
-  }, [currentCardIndex, currentGroup, currentGroupIndex, groups, wasIncorrect, dispatch]);
-
-  const handleCheckAnswer = () => {
-    const currentCard = currentGroup[currentCardIndex];
-    const correct = currentCard[settings.back] === userInput;
-    setPopupCorrect(correct);
-    setPopupVisible(true);
-    setLastWord(currentCard);
-    setLastUserAnswer(userInput);
-
-    if (correct) {
-      handleNextCard();
-    } else {
-      setWasIncorrect(true);
-      handleNextCard();
-    }
-  };
+  }, [deck, dispatch]);
 
   const handleInputChange = (text: string) => {
     dispatch(setUserInput(text));
   };
 
-  const handleMarkCorrect = () => {
-    dispatch(removeCardFromDeck(currentCardIndex));
-    setPopupVisible(false);
-    handleNextCard();
+  const handleCheckAnswer = () => {
+    dispatch(checkAnswer());
   };
 
   const handleSettingsToggle = () => {
@@ -160,11 +98,16 @@ const LearnGame: React.FC = () => {
   const handleReset = () => {
     dispatch(resetGame());
     fetchDeck();
-    startGame();
+    dispatch(startGame());
   };
 
-  const currentCard = currentGroup[currentCardIndex];
+  const handleMarkCorrect = () => {
+    dispatch(setPopupVisible(false));
+  };
 
+  const currentGroup = groups[currentGroupIndex] || [];
+  const currentCard = currentGroup[currentCardIndex];
+  
   return (
     <View style={styles.container}>
       <Link href="/List" asChild>
